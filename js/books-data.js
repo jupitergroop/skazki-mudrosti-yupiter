@@ -174,8 +174,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 429 (Предварительный договор со сроком акцепта), ст. 431.1 (Переговоры о заключении договора: добросовестность и запрет ведения переговоров без намерения заключить сделку), ст. 450.1 (Отказ от договора при истечении срока оферты).",
       "pravo_mir": "UNIDROIT Principles Art. 2.1.15 (Negotiations in Bad Faith: ответственность за затягивание переговоров без намерения подписать контракт); English Law Heads of Terms with Long-Stop Date & Drop-Dead Fee; SHA Deadlock Resolution (Russian Roulette / Texas Shoot-Out)."
     },
-    "pdf_fam": "pdf/book1_family_ru.pdf",
-    "pdf_mgmt": "pdf/book1_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/01_Книга_1_Журавль_и_Цапля_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/01Б_Книга_1_Журавль_и_Цапля_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book2_zayac_i_lisa_ledyanaya_izbushka",
@@ -351,8 +351,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 301 (Виндикационный иск: истребование имущества из чужого незаконного владения), ст. 304 (Негаторный иск: защита прав собственника), ст. 14 (Самозащита гражданских прав соразмерными законными способами), ст. 1229 (Исключительное право на IP и программный код).",
       "pravo_mir": "English Law Injunctive Relief & Summary Possession Order; SaaS / IP Licensing Strict Revocation & Kill-Switch Clauses; International Arbitration (UNCITRAL / ICC) Expedited Procedure."
     },
-    "pdf_fam": "pdf/book2_family_ru.pdf",
-    "pdf_mgmt": "pdf/book2_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/02_Книга_2_Заяц_и_Лиса_Ледяная_Избушка_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/02Б_Книга_2_Заяц_и_Лиса_Ледяная_Избушка_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book3_vershki_i_koreshki",
@@ -528,8 +528,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 1041-1048 (Договор простого товарищества и распределение прибыли пропорционально реальному вкладу), ст. 432 (Существенные условия о предмете договора), ст. 178 (Недействительность сделки, совершённой под влиянием существенного заблуждения о природе актива).",
       "pravo_mir": "English Common Law Joint Venture & Shareholders' Agreement (KPI Specification: Gross Revenue vs Net Distributable Profit / EBITDA); CISG Art. 8 (Interpretation of party intent based on reasonable commercial understanding)."
     },
-    "pdf_fam": "pdf/book3_family_ru.pdf",
-    "pdf_mgmt": "pdf/book3_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/03_Книга_3_Вершки_и_Корешки_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/03Б_Книга_3_Вершки_и_Корешки_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book4_tri_porosenka",
@@ -734,8 +734,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 1259, 1260 (Чистое производное произведение на базе общественного достояния 1843 г. без заимствования охраняемых переводов XX в.), ст. 740-757 (Договор строительного подряда, гарантия качества и безопасности результата работ).",
       "pravo_mir": "Berne Convention Art. 2(3) & US Copyright Office Public Domain Clearance (1843 Halliwell-Phillipps base); ISO 31000 Risk Management & Business Continuity Plan (BCP); MENA/GCC Cultural Adaptation Protocol ('The Three Master Builders' edition for Arabic/Islamic markets)."
     },
-    "pdf_fam": "pdf/book4_family_ru.pdf",
-    "pdf_mgmt": "pdf/book4_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/04_Книга_4_Три_Поросенка_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/04Б_Книга_4_Три_Поросенка_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book5_gusynya_zolotye_yayca",
@@ -940,8 +940,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 53.1 (Ответственность директора и участников за неразумные и недобросовестные действия, причиняющие вред обществу: вывод оборотного капитала в ущерб деятельности), ФЗ «Об ООО» ст. 29 (Ограничения распределения прибыли при угрозе неплатёжеспособности).",
       "pravo_mir": "Delaware General Corporation Law & UK Companies Act s. 172 (Duty to Promote the Success of the Company for the Long Term; Solvency Test before Dividend Distribution); SHA Capital Retention & Reinvestment Covenants."
     },
-    "pdf_fam": "pdf/book5_family_ru.pdf",
-    "pdf_mgmt": "pdf/book5_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/05_Книга_5_Гусыня_Несущая_Золотые_Яйца_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/05Б_Книга_5_Гусыня_Несущая_Золотые_Яйца_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book6_kurochka_za_utochku_mena",
@@ -1146,8 +1146,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 567-571 (Договор мены и презумпция равноценности обмениваемых товаров), ст. 179 (Кабальная сделка на крайне невыгодных условиях), Семейный кодекс РФ ст. 35 (Согласие супруга на распоряжение общим имуществом), ГК РФ ст. 1062 (Недействительность требований, связанных с играми и пари).",
       "pravo_mir": "UK & US Corporate Law Board Approval Thresholds for Material Asset Disposals; UNIDROIT Art. 3.2.7 (Gross Disparity: защита от сделок с вопиющим неравенством встречного предоставления); Family Constitution & Spousal Consent Clauses."
     },
-    "pdf_fam": "pdf/book6_family_ru.pdf",
-    "pdf_mgmt": "pdf/book6_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/06_Книга_6_Курочка_за_Уточку_Мена_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/06Б_Книга_6_Курочка_за_Уточку_Мена_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book7_kolobok",
@@ -1352,8 +1352,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 179 (Недействительность сделки, совершённой под влиянием обмана и намеренного умолчания об обстоятельствах), ст. 431.2 (Заверения об обстоятельствах), правила информационной безопасности и защиты от социальной инженерии.",
       "pravo_mir": "UK Bribery Act & US FCPA / Corporate Anti-Fraud & Social Engineering Controls; KYC / Counterparty Due Diligence ('Four-Eyes Principle' before approving high-risk deals)."
     },
-    "pdf_fam": "pdf/book7_family_ru.pdf",
-    "pdf_mgmt": "pdf/book7_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/07_Книга_7_Колобок_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/07Б_Книга_7_Колобок_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book8_ivan_carevich_i_seryy_volk",
@@ -1558,8 +1558,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 971-979 (Договор поручения и обязанность доверителя следовать согласованным инструкциям), ст. 1028-1040 (Коммерческая концессия и соблюдение технологического стандарта), защита авторства результата от присвоения недобросовестными соучастниками.",
       "pravo_mir": "International Turnkey EPC & Strategic Advisory Agreements (Strict Compliance with Technical Red-Lines); Shareholders' Agreement Bad-Leaver & IP Misappropriation Remedies."
     },
-    "pdf_fam": "pdf/book8_family_ru.pdf",
-    "pdf_mgmt": "pdf/book8_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/08_Книга_8_Иван_Царевич_и_Серый_Волк_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/08Б_Книга_8_Иван_Царевич_и_Серый_Волк_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book9_gusi_lebedi",
@@ -1764,8 +1764,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "Семейный кодекс РФ ст. 63, 65 (Забота о безопасности детей), ГК РФ ст. 401 и ст. 404 (Снижение размера ответственности и предотвращение убытков за счёт незамедлительных добросовестных действий стороны в кризисе).",
       "pravo_mir": "Crisis Management & Incident Response SLA (Immediate Containment & Stakeholder Humility); Ecosystem Mutual-Aid & Reciprocity Covenants."
     },
-    "pdf_fam": "pdf/book9_family_ru.pdf",
-    "pdf_mgmt": "pdf/book9_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/09_Книга_9_Гуси_Лебеди_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/09Б_Книга_9_Гуси_Лебеди_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book10_kasha_iz_topora",
@@ -1970,8 +1970,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 1041-1042 (Вклады товарищей в общее дело: профессиональные знания, навыки, деловая репутация и имущество), ст. 421 (Свобода смешанных и консорциумных договоров), ст. 431.2 (Достоверность заверений об обстоятельствах без введения в заблуждение).",
       "pravo_mir": "International Consortium & Co-Development Agreement (Background IP vs Foreground IP); Venture Syndication & Lead-Investor Catalyst Model; UNIDROIT Principles on Cooperative Performance."
     },
-    "pdf_fam": "pdf/book10_family_ru.pdf",
-    "pdf_mgmt": "pdf/book10_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/10_Книга_10_Каша_из_Топора_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/10Б_Книга_10_Каша_из_Топора_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book11_lisa_i_zhuravl",
@@ -2176,8 +2176,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 10 (Запрет злоупотребления правом: формальное исполнение обязательства в заведомо непригодной для кредитора форме), ст. 428 (Договор присоединения: защита от кабальных и односторонних условий), ст. 309 (Исполнение обязательств надлежащим образом).",
       "pravo_mir": "CISG Art. 35(2)(b) (Fitness for Particular Purpose: товар или услуга должны подходить под конкретную цель и инфраструктуру покупателя); UNIDROIT Art. 1.7 (Good Faith and Fair Dealing: запрет «симметричного саботажа» по принципу кувшина)."
     },
-    "pdf_fam": "pdf/book11_family_ru.pdf",
-    "pdf_mgmt": "pdf/book11_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/11_Книга_11_Лиса_и_Журавль_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/11Б_Книга_11_Лиса_и_Журавль_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book12_teremok",
@@ -2382,8 +2382,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 57-60 (Реорганизация юридического лица в форме присоединения/слияния и гарантии прав кредиторов), ФЗ «Об ООО» ст. 19 (Увеличение уставного капитала за счёт вкладов третьих лиц с соблюдением корпоративного баланса).",
       "pravo_mir": "M&A Pre-Merger Due Diligence & Post-Merger Integration (PMI) Protocol; Shareholders' Agreement Anti-Dilution, Pre-Emptive Rights & Cap-Table Governance (защита от разрушения управления при входе крупного стратегического инвестора)."
     },
-    "pdf_fam": "pdf/book12_family_ru.pdf",
-    "pdf_mgmt": "pdf/book12_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/12_Книга_12_Теремок_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/12Б_Книга_12_Теремок_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book13_skazka_o_rybake_i_rybke",
@@ -2588,8 +2588,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 450-451 (Пределы одностороннего изменения условий договора и право контрагента расторгнуть соглашение при выходе требований за рамки добросовестности), ст. 10 (Запрет злоупотребления правом).",
       "pravo_mir": "CISG Art. 29 & UNIDROIT Art. 3.2.5 (Protection against Economic Duress & Unconscionable Contract Modification); Scope-of-Work Change Order Cap & Walk-Away Rights in International Contracts."
     },
-    "pdf_fam": "pdf/book13_family_ru.pdf",
-    "pdf_mgmt": "pdf/book13_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/13_Книга_13_Сказка_о_Рыбаке_и_Рыбке_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/13Б_Книга_13_Сказка_о_Рыбаке_и_Рыбке_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book14_novoe_platye_korolya",
@@ -2794,8 +2794,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ГК РФ ст. 170 (Недействительность мнимой и притворной сделки: оплата несуществующих работ по пустым актам), УК РФ ст. 159 и корпоративный комплаенс (Приёмка работ строго по верифицируемому результату с независимой экспертизой).",
       "pravo_mir": "Sarbanes-Oxley (SOX) & International Internal Audit Independence Standards; EU Whistleblower & Speak-Up Protection; Venture Capital Technical Due Diligence (проверка реального кода/продукта против «пустого станка»)."
     },
-    "pdf_fam": "pdf/book14_family_ru.pdf",
-    "pdf_mgmt": "pdf/book14_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/14_Книга_14_Новое_Платье_Короля_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/14Б_Книга_14_Новое_Платье_Короля_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book15_dva_zhadnyh_medvezhonka",
@@ -3000,8 +3000,8 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ФЗ № 193-ФЗ «Об альтернативной процедуре урегулирования споров с участием посредника (процедуре медиации)», ГК РФ ст. 252 (Раздел имущества, находящегося в долевой собственности, по соглашению участников без разрушения стоимости актива).",
       "pravo_mir": "Shareholders' Agreement 'Cut-and-Choose / Texas Shoot-Out / Russian Roulette' Buy-Sell Clauses (механизм справедливой оценки, где называющий цену не знает, будет ли он покупателем или продавцом); UNCITRAL Conciliation & Amicable Settlement First-Step Clause."
     },
-    "pdf_fam": "pdf/book15_family_ru.pdf",
-    "pdf_mgmt": "pdf/book15_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/15_Книга_15_Два_Жадных_Медвежонка_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/15Б_Книга_15_Два_Жадных_Медвежонка_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   },
   {
     "id": "book16_kurochka_ryaba",
@@ -3172,7 +3172,7 @@ window.JUPITER_BOOKS_DATA = [
       "pravo_rf": "ФЗ-152 и корпоративные регламенты резервного копирования ИТ-инфраструктуры (защита от «хвостика мышки»), ГК РФ ст. 431.2 и аудит реальной хозяйственной цели сделки (приоритет реального экономического содержания над формальной «позолотой»).",
       "pravo_mir": "ISO/IEC 27001 & Disaster Recovery / Zero Single Point of Failure (SPOF) Compliance; Venture Capital Substance-over-Form Due Diligence (Product-Market Fit & Recurring Revenue vs Vanity Metrics)."
     },
-    "pdf_fam": "pdf/book1_family_ru.pdf",
-    "pdf_mgmt": "pdf/book1_mgmt_ru.pdf"
+    "pdf_fam": "02_Образцы_Книг_На_Русском/01_Книга_1_Журавль_и_Цапля_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_mgmt": "02_Образцы_Книг_На_Русском/01Б_Книга_1_Журавль_и_Цапля_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
   }
 ];
