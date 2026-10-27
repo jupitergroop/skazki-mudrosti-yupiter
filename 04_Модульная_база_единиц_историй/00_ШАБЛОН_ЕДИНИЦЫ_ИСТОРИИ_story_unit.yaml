@@ -1,0 +1,117 @@
+# Канонический шаблон модульной единицы истории ИИ-издательства (Story Unit Schema v1.0)
+# Утверждено концепцией Jupiter AI Corporation от 26–27.10.2026 (п. 9 «ИИ-издательство»):
+# «Текст, иллюстрации, цели, вопросы, задания и методические материалы хранятся отдельно,
+# чтобы использовать их повторно: Сказка → Электронная книга → Интерактивный разбор → Курс».
+
+meta:
+  story_id: "jup_tale_000"
+  series: "Сказки Мудрости Юпитера"
+  series_en: "Tales of Jupiter Wisdom"
+  author_ru: "Зинаида Юпитер"          # НИКОГДА НЕ СКЛОНЯЕТСЯ
+  author_en: "Zinaida Jupiter, DBA"
+  title_ru: ""
+  title_en: ""
+  origin_culture: "Русская народная сказка"
+  age_rating_family: "6+"
+  age_rating_executive: "12+"
+  style_preset: "STYLE_1_RUSSIAN_TEREM" # 1..7 из матрицы музейных стилей
+  status: "draft"                       # draft | sample_ready | approved | published
+
+# 1. ЦЕЛИ И ДВА ЗОЛОТЫХ КЛЮЧИКА (отдельно от текста)
+celi_i_klyuchi:
+  cel_rebenka_6plus: ""
+  cel_roditelya_i_lidera: ""
+  zolotoy_klyuchik_malym_ru: ""
+  zolotoy_klyuchik_bolshim_ru: ""
+  golden_key_children_en: ""
+  golden_key_adults_en: ""
+
+# 2. ТЕКСТ ИСТОРИИ ПО СЦЕНАМ (отдельно от вёрстки и иллюстраций)
+tekst_istorii:
+  predislovie_avtora_ru: ""
+  predislovie_avtora_en: ""
+  sceny_family_5str:                    # Полная версия (5 сцен для Ветки А 6+)
+    - scena: 1
+      tekst_ru: ""
+      tekst_en: ""
+      aforizm_pod_kartinoy_ru: ""
+      aforizm_pod_kartinoy_en: ""
+  sceny_executive_3str:                 # Концентрированная живая сказка за 1,5 мин (3 сцены для Ветки Б)
+    - scena: 1
+      tekst_ru: ""
+      tekst_en: ""
+
+# 3. ИЛЛЮСТРАЦИИ И АРТ-ПАСПОРТ (отдельно от текста)
+illyustracii:
+  style_preset: "STYLE_1_RUSSIAN_TEREM"
+  palette_hex: ["#fbf6ec", "#8b261d", "#c59b27", "#1e352f"]
+  cover_ru_path: ""
+  cover_en_path: ""
+  plates:
+    - scena: 1
+      prompt_en: ""
+      image_path: ""
+
+# 4. ВОПРОСЫ И ЗАДАНИЯ ДЛЯ ДЕТЕЙ И ВЗРОСЛЫХ (для книг, тренажёров и ИИ-наставника)
+voprosy_i_zadaniya:
+  tayna_skazki_2stroki_ru: ""
+  voprosy_besedy_s_rebenkom:
+    - "Вопрос I: ..."
+    - "Вопрос II: ..."
+    - "Вопрос III: ..."
+  volshebnye_slova_druzhby: []
+  igra_vybor_3_dorogi:
+    situaciya: ""
+    variant_a_oshibka: ""
+    variant_b_oshibka: ""
+    variant_v_vernyy: ""
+  tvorcheskoe_zadanie_risunok: ""
+  praktikum_rukovoditelya_5_tochek: []
+
+# 5. МЕТОДИЧЕСКИЕ МАТЕРИАЛЫ И МАТРИЦА 2x2 (просто по двум осям)
+metodika_i_matrica_2x2:
+  paradox_skazki_ru: ""
+  kto_est_kto_4_tipazha: []
+  dve_glavnye_lovushki: []
+  os_y_vertikalnaya:
+    nazvanie_ru: ""
+    niz_ru: "Низкая"
+    verh_ru: "Высокая ↑"
+  os_x_gorizontalnaya:
+    nazvanie_ru: ""
+    levo_ru: "◄ Низкое"
+    pravo_ru: "Высокое ►"
+  kvadraty:
+    kvadrat_1_levyy_nizhniy:
+      zagolovok_ru: ""
+      sut_ru: ""
+    kvadrat_2_levyy_verhniy:
+      zagolovok_ru: ""
+      sut_ru: ""
+    kvadrat_3_pravyy_nizhniy:
+      zagolovok_ru: ""
+      sut_ru: ""
+    kvadrat_4_pravyy_verhniy_pravilnyy_otvet: # ★ ВСЕГДА В ПРАВОМ ВЕРХНЕМ УГЛУ
+      zagolovok_ru: "★ Квадрат 4: ..."
+      sut_ru: ""
+  tri_pravila_perehoda_v_kvadrat_4: []
+  tablica_rabochih_situaciy:
+    - situaciya: ""
+      ubytschnyy_otvet: ""
+      pravilnyy_otvet_kvadrat_4: ""
+  krylatyy_slovar_komandy: []
+
+# 6. ПОВТОРНОЕ ИСПОЛЬЗОВАНИЕ: ОДНА ИСТОРИЯ -> НЕСКОЛЬКО ПРОДУКТОВ
+produkty_iz_istorii:
+  etap_1_elektronnaya_i_pechatnaya_kniga:
+    vetka_a_semeynaya_pdf_ru: ""
+    vetka_a_semeynaya_pdf_en: ""
+    vetka_b_upravlencheskaya_pdf_ru: ""
+    vetka_b_upravlencheskaya_pdf_en: ""
+  etap_2_interaktivnyy_razbor_i_ii_nastavnik:
+    tema_razbora: ""
+    scenariy_dialoga_ii: []
+  etap_3_modul_kursa:
+    kurs: "Предпринимательское мышление через сказки народов мира"
+    modul_title: ""
+    kejs_i_domashnee_zadanie: ""

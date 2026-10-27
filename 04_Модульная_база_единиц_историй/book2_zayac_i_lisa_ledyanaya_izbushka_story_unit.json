@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "story_id": "book2_zayac_i_lisa_ledyanaya_izbushka",
+    "issue_number": 2,
+    "series": "Сказки Мудрости Юпитера",
+    "series_en": "Tales of Jupiter Wisdom",
+    "author_ru": "Зинаида Юпитер",
+    "author_en": "Zinaida Jupiter, DBA",
+    "title_ru": "Заяц и лиса (Ледяная избушка)",
+    "title_en": "The Fox and the Hare (The Bark Hut and the Ice Hut)",
+    "subtitle_ru": "Русская народная сказка о лубяной и ледяной избушке с уроком смелости (6+) и Матрицей защиты границ и активов (DBA)",
+    "origin_culture": "Русская народная сказка",
+    "age_rating_family": "6+",
+    "age_rating_executive": "12+",
+    "style_preset": "STYLE_1_RUSSIAN_TEREM",
+    "isbn": "978-5-00000-004-8",
+    "status": "published_sample",
+    "pdf_ru_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/02_Образцы_Книг_На_Русском/02_Книга_2_Заяц_и_Лиса_Ледяная_Избушка_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_executive_ru_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/02_Образцы_Книг_На_Русском/02Б_Книга_2_Заяц_и_Лиса_Ледяная_Избушка_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf",
+    "pdf_en_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/03_Образцы_Книг_EN_и_БРИКС/Book_4A_Zayushkina_Izbushka_Family_6+_EN.pdf",
+    "pdf_executive_en_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/03_Образцы_Книг_EN_и_БРИКС/Book_4B_The_Ice_Palace_Paradox_Hard_DBA_16+_EN.pdf",
+    "copyright_and_legal_colophon_ru": "© Зинаида Юпитер, 2026 • Все права защищены • Охраняется Бернской конвенцией (ст. 2(3) — оригинальная авторская адаптация и методология) • ГОСТ Р 7.0.4-2020 • ФЗ-436 (Семейное издание 6+ / Управленческое издание 12+) • ФЗ-53 (100% чистый русский язык без англицизмов)",
+    "copyright_and_legal_colophon_en": "© 2026 Zinaida Jupiter, DBA. All rights reserved. Protected under the Berne Convention (Art. 2(3) — Original Derivative Adaptation & Methodology). CPSIA Compliant (Consumer Product Safety Improvement Act) • COPPA / GDPR-K Zero-PII Certified."
+  },
+  "celi_i_klyuchi": {
+    "cel_rebenka_6plus": "Отличить надёжный труд («лубяную избушку») от хвастовства («ледяной избушки») и научиться вовремя ставить границу на крылечке.",
+    "cel_roditelya_i_lidera": "Понять механизм ползучего захвата активов в 3 шага («дворик → крылечко → печка») и почему узкий практик с инструментом («Петушок с косой») эффективнее статусных советников («Волка и Медведя»).",
+    "zolotoy_klyuchik_malym_ru": "1. Трудись основательно: ледяное хвастовство растает весной, а честный труд простоит долгие годы. 2. Береги свой порог: доброму гостю — радость, а хитрецу — твёрдое слово. 3. Будь храбрым, как Петушок!",
+    "zolotoy_klyuchik_bolshim_ru": "1. Держите фокус в Правом Верхнем Квадрате (Квадрат 4): твёрдый актив + защищённые границы. 2. Не пускайте «на печку» без регламента: договор дороже устных обещаний на крыльце. 3. Иммунитет к голосовому блефу.",
+    "golden_key_children_en": "Build with solid bark rather than melting ice, guard your threshold wisely, and stand brave like the Rooster.",
+    "golden_key_adults_en": "Pair a resilient core asset with ironclad governance on the porch, and rely on decisive specialists rather than loud titles."
+  },
+  "tekst_istorii": {
+    "predislovie_avtora_ru": "Перекликаясь с всемирно известной притчей о «Носе верблюда в шатре», история Заюшкиной лубяной и лисьей ледяной избушек показывает, как шаг за шагом нарушаются границы — и как твёрдое правило возвращает хозяину его дом. Сказка про лубяную и ледяную избушку с детства знакома каждому, но в ней скрыт удивительно глубокий урок. Ребёнок видит в этой истории, чем трудолюбие Зайца отличается от ледяного хвастовства Лисы, и понимает, почему добрый дом нуждается в смелой защите. А взрослый руководитель узнаёт классический кейс о том, как можно собственными руками впустить недобросовестного партнёра на порог и почему громкие титулы советников (Волка и Медведя) пасуют там, где побеждает точная решимость Петушка.",
+    "sceny_family_5str": [
+      {
+        "scena": 1,
+        "aforizm_ru": "Тот, кто строит на совесть, встречает весну под крепкой крышей, а кто строит напоказ — остаётся у талой лужи.",
+        "tekst_ru": "Жили-были на лесной опушке Лиса да Заяц. Пришла осенняя пора холодная — решили они себе к зиме избы рубить. Трудолюбивый Заяц не поленился: натаскал крепкого древесного луба, проконопатил стены мхом и выстроил тёплую лубяную избушку — пусть не блестит на солнце, зато ни вьюга, ни весеннее тепло ей не страшны. А хитрая Лиса работать долго не любила: слепила себе сияющую избушку ледяную, села у резного окошка и давай над соседом посмеиваться: «У меня горница светлая, хрустальная, а у тебя, косой, тёмная да простая!» Только пришла красна весна — пригрело ласковое солнышко: у Зайца избушка стоит как стояла, а у Лисы вся до капельки и растаяла."
+      },
+      {
+        "scena": 2,
+        "aforizm_ru": "Весенняя распутица: Лиса просится к доброму Зайцу на крылечко обсохнуть.",
+        "tekst_ru": "Осталась Лиса без крова под весенним ветром. Подошла она к заячьему теремку, сложила лапки у груди и запела тоненьким, жалобным голоском: «Заинька-соседушка, пусти меня хоть на твой дворик постоять, лапки обсохнут — я и пойду!» Добрая душа у Зайца — пожалел он соседку и отворил ворота без всякого уговора. А к вечеру Лиса уж в дверь стучится: «Пусти, Заинька, на крылечко, а с крылечка — в тёплую горницу, да на печку погреться!» Пустил её простодушный хозяин на печку, а наутро Лиса хвостом махнула, топнула лапой и самого Зайца за порог выставила: «Ступай прочь, косой, теперь это мой дом!»"
+      },
+      {
+        "scena": 3,
+        "aforizm_ru": "Неудачное заступничество: грозные Волк и Медведь бегут от крика с печки.",
+        "tekst_ru": "Идёт Заяц по лесной тропинке да горько плачет. Навстречу ему серый Волк, а за ним и сам косолапый Медведь в боярском кафтане: «О чём, Заинька, слёзы льёшь?» — «Как же мне не плакать! Была у меня избушка лубяная, а у Лисы ледяная; попросилась она ко мне погреться, да меня же из дому и выгнала!» Вскипели лесные великаны: «Не плачь, косой, мы её мигом выгоним!» Подошли к избушке, зарычали: «Поди, Лиса, вон!» А Лиса с тёплой печки как закричит страшным голосом: «Как выскочу, как выпрыгну — пойдут клочки по закоулочкам!» Испугались и Волк, и Медведь громкого крика — и бросились врассыпную по кустам."
+      },
+      {
+        "scena": 4,
+        "aforizm_ru": "Встреча на лесной дорожке: Петушок — золотой гребешок спешит Зайцу на выручку.",
+        "tekst_ru": "Сидит Заяц на мшистом пеньке, ещё пуще прежнего горюет: коли уж ни Волк, ни могучий Медведь не совладали с плутовкой, кто же ему подмогу даст? Вдруг шагает по лесной дорожке Петушок — золотой гребешок, в красных сапожках, а на плече острую косу несёт: «Ку-ка-ре-ку! О чём, Заинька, плачешь?» Рассказал Заяц про свою беду и вздохнул: «Куда уж тебе, Петушок: гнали её и Волк, и Медведь — не выгнали!» А Петушок расправил крылья, тряхнул золотым гребнем и отвечает звонко: «А вот они не выгнали, а я выгоню! Пойдём со мной к твоему дому!»"
+      },
+      {
+        "scena": 5,
+        "aforizm_ru": "Торжество правды: решительный шаг Петушка обращает лисий блеф в бегство.",
+        "tekst_ru": "Подошёл Петушок к лубяной избушке, стукнул каблуком по резному крыльцу и запел во весь голос: «Ку-ка-ре-ку! Иду на пятах, несу косу на плечах, хочу Лису посечи — слезай, Лиса, с печи, поди, Лиса, вон!» Струхнула плутовка, засуетилась: «Одеваюсь, шубу надеваю!» — а Петушок не ждёт, пуще прежнего шаг чеканит да косой позвякивает. Увидела Лиса, что пугать тут некого: отворила дверь да стрелой метнулась в чащу без оглядки! А Заяц с Петушком вошли в тёплую лубяную горницу, поставили медный самовар и стали жить-поживать в крепкой дружбе да согласии."
+      }
+    ]
+  },
+  "illyustracii": {
+    "style_preset": "STYLE_1_RUSSIAN_TEREM",
+    "palette_hex": [
+      "#fbf6ec",
+      "#7a1c14",
+      "#b88938",
+      "#1e352f"
+    ],
+    "plates": [
+      {
+        "scena": 1,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b2_zayac_s1.jpg",
+        "prompt_en": "Ivan Bilibin style, sturdy wooden bark hut of the Hare next to the glittering melting ice hut of the Fox in spring."
+      },
+      {
+        "scena": 2,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b2_zayac_s2.jpg",
+        "prompt_en": "Ivan Bilibin style, Fox begging at the carved wooden porch of the kind Hare's hut."
+      },
+      {
+        "scena": 3,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b2_zayac_s3.jpg",
+        "prompt_en": "Ivan Bilibin style, Wolf and Bear in boyar coats running away in fear from the hut window while Hare weeps."
+      },
+      {
+        "scena": 4,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b2_zayac_s4.jpg",
+        "prompt_en": "Ivan Bilibin style, brave Rooster in red boots carrying a gleaming scythe meeting the crying Hare on a forest path."
+      },
+      {
+        "scena": 5,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b2_zayac_s5.jpg",
+        "prompt_en": "Ivan Bilibin style, Rooster with scythe on the porch driving the frightened Fox out into the forest."
+      }
+    ]
+  },
+  "voprosy_i_zadaniya": {
+    "tayna_skazki_2stroki_ru": "Доброта не должна быть беззащитной! Добрый Заяц умел отлично строить, но не умел вовремя сказать «Стоп», а маленький Петушок оказался сильнее Медведя, потому что не испугался пустого крика.",
+    "voprosy_besedy_s_rebenkom": [
+      "Вопрос I (Тайна трёх шажков): Почему Лиса не стала сразу выгонять Зайца, а просилась сначала «на дворик», потом «на крылечко», а потом «на печку»?",
+      "Вопрос II (Загадка про страх великанов): Почему зубастый Волк и огромный Медведь убежали от крика Лисы, а маленький Петушок не испугался?",
+      "Вопрос III (Как помочь и дом не потерять): Как Зайцу надо было уговориться с Лисой ещё у калитки, чтобы и соседку от простуды спасти, и хозяином в своём доме остаться?"
+    ],
+    "volshebnye_slova_druzhby": [
+      "Погреться с мороза — пожалуйста, садись на лавочку у входа! А хозяйская печка и ключи от дома — только мои!"
+    ],
+    "igra_vybor_3_dorogi": {
+      "situaciya": "Тренажёр «Три ступеньки к печке»: где поставить границу?",
+      "variant_a_oshibka": "Ступенька 1 («На дворик»): отказать другу даже в запасной ручке на один урок.",
+      "variant_b_oshibka": "Ступенька 2 («На крылечко»): промолчать, когда приятель без спроса хозяйничает в твоём рюкзаке.",
+      "variant_v_vernyy": "Ступенька 3 («Стоп-линия Петушка»): помогать по-доброму, но ключи и правила в своём доме держать твёрдо!"
+    },
+    "tvorcheskoe_zadanie_risunok": "Придумай и нарисуй деревянную табличку «Правила гостеприимного дома Зайца» над его резным крыльцом.",
+    "praktikum_rukovoditelya_5_tochek": [
+      "1. Какое дело вашей компании или семьи построено «изо льда» (на показном блеске), а какое — «из луба» (вдолгую)?",
+      "2. Где вы пустили партнёра или сотрудника «на крылечко» без письменного уговора и чётких обязательств?",
+      "3. Какие «Волки и Медведи» (громкие по званию советники) создают шум вместо решения вопроса?",
+      "4. Кто ваш «Петушок с косой» — профильный практик, способный довести защиту прав до конца?",
+      "5. Какое правило доступа к ключевому достоянию («печке») вы закрепите сегодня?"
+    ]
+  },
+  "metodika_i_matrica_2x2": {
+    "paradox_skazki_ru": "Созидатель твёрдого актива (Заяц) оказывается вытеснен со своей территории из-за мягкости границ, а статусные советники (Волк и Медведь) пасуют перед блефом захватчика.",
+    "os_y_vertikalnaya": {
+      "nazvanie_ru": "ШКАЛА Y: КРЕПОСТЬ СОБСТВЕННОГО ДЕЛА («ЛУБ»)",
+      "niz_ru": "Низкая (Лёд / пустой вид)",
+      "verh_ru": "Высокая (Лубяной фундамент) ↑"
+    },
+    "os_x_gorizontalnaya": {
+      "nazvanie_ru": "ШКАЛА X: ТВЁРДОСТЬ ПОЗИЦИИ И НАПОР",
+      "levo_ru": "◄ Уступчивость и отступление",
+      "pravo_ru": "Решительный шаг и инструмент ►"
+    },
+    "kvadraty": {
+      "kvadrat_1_levyy_nizhniy": {
+        "zagolovok_ru": "Квадрат 1: «Отступление Волка и Медведя»",
+        "sut_ru": "Внушительный статус без собственного фундамента в деле и без готовности идти до конца при первом же крике с печки."
+      },
+      "kvadrat_2_levyy_verhniy": {
+        "zagolovok_ru": "Квадрат 2: «Открытое крылечко Зайца»",
+        "sut_ru": "Дело построено на века («лубяная изба»), но хозяин впускает партнёра внутрь без уговора («дворик → крылечко → печка»), теряя управление."
+      },
+      "kvadrat_3_pravyy_nizhniy": {
+        "zagolovok_ru": "Квадрат 3: «Ледяная изба и Блеф Лисы»",
+        "sut_ru": "Хрупкая показная витрина («ледяная избушка») в сочетании с агрессивным захватом чужого ресурса и голосовым запугиванием."
+      },
+      "kvadrat_4_pravyy_verhniy_pravilnyy_otvet": {
+        "zagolovok_ru": "★ Квадрат 4: «Лубяная Крепость и Коса Петушка»",
+        "sut_ru": "Крепкое созидательное ядро + твёрдый устав границ и реальный инструмент защиты («коса на плечах») против любого захвата."
+      }
+    },
+    "tri_pravila_perehoda_v_kvadrat_4": [
+      "Шаг 1. Стройте «лубяной», а не «ледяной» контур (Анти-Лиса).",
+      "Шаг 2. Фиксируйте границы на «крылечке» письменным регламентом ДО входа во внутренний контур (Анти-Заяц).",
+      "Шаг 3. Выбирайте «Петушка с косой» вместо «Медведя» — узкого практика с инструментом и готовностью идти до конца."
+    ],
+    "tablica_rabochih_situaciy": [
+      {
+        "situaciya": "Партнёр просит «временно поработать без договора»",
+        "ubytschnyy_otvet": "«Ладно, мы же свои люди, потом оформим» (путь на печку).",
+        "pravilnyy_otvet_kvadrat_4": "«Дружбу ценим, поэтому все права и границы фиксируем на берегу до старта»."
+      },
+      {
+        "situaciya": "Оппонент включает голосовой блеф («Пойдут клочки!»)",
+        "ubytschnyy_otvet": "Отступить из-за страха конфликта, как Волк и Медведь.",
+        "pravilnyy_otvet_kvadrat_4": "Спокойно предъявить юридический расчёт и шаг за шагом довести процедуру до конца."
+      },
+      {
+        "situaciya": "Выбор защитника интересов компании или семьи",
+        "ubytschnyy_otvet": "Искать «самого крупного по статусу» советника без специализации.",
+        "pravilnyy_otvet_kvadrat_4": "Привлечь целевого практика («Петушка с косой»), который не боится шума."
+      }
+    ],
+    "krylatyy_slovar_komandy": [
+      "«Ледяная избушка» — витринный проект без запаса прочности, который тает при первом кризисе.",
+      "«Пустить на крылечко» — дать доступ к ключевым активам без юридической фиксации границ.",
+      "«Позвать Петушка с косой» — заменить статусных говорунов на решительного профильного исполнителя."
+    ],
+    "sekret_skazki_ru": "1. Держите фокус в Правом Верхнем Квадрате (Квадрат 4): твёрдый актив + защищённые границы. 2. Не пускайте «на печку» без регламента: договор дороже устных обещаний на крыльце. 3. Иммунитет к голосовому блефу."
+  },
+  "matrica_semeynaya_2x2": {
+    "zagolovok_ru": "❖ ЧЕТЫРЕ УРОКА СКАЗКИ ДЛЯ СЕМЬИ И ВОСПИТАНИЯ ❖",
+    "vvodnaya_mysl_ru": "Как соединить в ребёнке честное трудолюбие Зайца со смелой защитой своих границ, как у Петушка.",
+    "os_y_vertikalnaya": "ЧЕСТНЫЙ ТРУД И ДОБРОТА («ЛУБЯНАЯ ОСНОВА») →",
+    "os_x_gorizontalnaya": {
+      "levo_ru": "Робость и отступление",
+      "centr_ru": "СМЕЛОСТЬ ДЕРЖАТЬ ГРАНИЦЫ ДОМА",
+      "pravo_ru": "Решительный голос и твёрдость"
+    },
+    "kvadraty": {
+      "kvadrat_1_levyy_nizhniy": {
+        "zagolovok_ru": "Урок I • Испуг Волка и Медведя — ГРОМКИЙ ВИД ПРИ СЛАБОЙ ВОЛЕ",
+        "sut_ru": "На словах обещать защиту, а при первом же грозном окрике с печки отступить в кусты."
+      },
+      "kvadrat_2_levyy_verhniy": {
+        "zagolovok_ru": "Урок II • Простодушие Зайца — ДОБРОТА БЕЗ ЗАЩИТЫ ПОРОГА",
+        "sut_ru": "Честно трудиться и помогать другим, но стесняться вовремя сказать «нет», когда гость садится на шею."
+      },
+      "kvadrat_3_pravyy_nizhniy": {
+        "zagolovok_ru": "Урок III • Ледяная хитрость Лисы — ХВАСТОВСТВО И НАПОР ЗА ЧУЖОЙ СЧЁТ",
+        "sut_ru": "Лениться строить своё, но громким криком и хитростью вытеснять добрых людей."
+      },
+      "kvadrat_4_pravyy_verhniy_pravilnyy_otvet": {
+        "zagolovok_ru": "★ ГАРМОНИЯ В СЕМЬЕ И ЖИЗНИ — ЛУБЯНОЙ ДОМ И СМЕЛЫЙ ПЕТУШОК",
+        "sut_ru": "Союз трудолюбивого сердца Зайца и бесстрашной решимости Петушка: свой дом строим на совесть и бережём его порог."
+      }
+    }
+  },
+  "sovet_18_ekspertov": {
+    "kontur_1_smysl_i_metodologiya": {
+      "rol_01_dba_instrument": "Архитектура прав собственности и неприкосновенность границ (Property Rights, Due Diligence контрагента, Hard Clauses vs репутационная коалиция и доведение решения до конца)",
+      "rol_02_mckinsey_mece_proverka": "Ось X (Юридическая и техническая защищённость актива до впуска партнёра) × Ось Y (Способность строить коалицию и приводить решение в исполнение) — выводят из наивной уступчивости (Кв. 2) и бессильных жалоб (Кв. 1) к защищённому партнёрству и твёрдому праву (★ Кв. 4).",
+      "rol_03_edtech_perenos_v_privychku_24ch": {
+        "dlya_semyi_segodnya_vecherom": "Обсудите с ребёнком правило «Добрая помощь с ясными правилами»: делиться игрушками здорово, но всегда нужно заранее договариваться, когда и в каком порядке вещь возвращается хозяину.",
+        "dlya_rukovoditelya_zavtra_utrom": "Проведите ревизию всех гостевых доступов, субаренд и тестовых интеграций: ни один внешний контрагент не должен получать доступ к ядру («на печку»), пока не подписан NDA, лимит прав и порядок мгновенного отзыва доступа."
+      },
+      "rol_04_skazochnik_transkreator": "T1 + T2 (Замена насилия на правовую и переговорную твёрдость 6+): Подчёркнута разница между громкими статусными советниками (Волком и Медведем), которые отступают при первом окрике, и точным профессиональным исполнителем (Петушком), который восстанавливает справедливость.",
+      "rol_05_rezhisser_chteniya_vsluh_i_audio": "Тёплый треск печки в лубяной избушке; вкрадчивый лисий голосок («пусти только на крылечко»); неудачные басовитые подходы Волка и Медведя; звонкий, победный шаг Петушка.",
+      "rol_06_briks_i_vostok_most": "Арабский Восток: притча о Бедуине и Верблюде, просившем погреть нос в шатре ('The Camel's Nose in the Tent'); Индия (Панчатантра): рассказ о воробье и зайце, спор которых разрешил мудрый судья."
+    },
+    "kontur_2_chetyre_auditorii": {
+      "rol_07_deti_6_10_let": "1. Трудись основательно: ледяное хвастовство растает весной, а честный труд простоит долгие годы. 2. Береги свой порог: доброму гостю — радость, а хитрецу — твёрдое слово. 3. Будь храбрым, как Петушок!",
+      "rol_08_semya_i_60_plyus": "100% чистый русский язык без англицизмов и жаргона; уважение к бабушкам и дедушкам (60+) как хранителям семейного лада.",
+      "rol_09_upravlency_mba": "1. Держите фокус в Правом Верхнем Квадрате (Квадрат 4): твёрдый актив + защищённые границы. 2. Не пускайте «на печку» без регламента: договор дороже устных обещаний на крыльце. 3. Иммунитет к голосовому блефу.",
+      "rol_10_predprinimateli_sovladelcy": "1. Держите фокус в Правом Верхнем Квадрате (Квадрат 4): твёрдый актив + защищённые границы. 2. Не пускайте «на печку» без регламента: договор дороже устных обещаний на крыльце. 3. Иммунитет к голосовому блефу."
+    },
+    "kontur_3_vizual_produkt_pravo": {
+      "rol_11_hudozhnik_illyustrator": "Пресет STYLE_1_RUSSIAN_TEREM, палитра #fbf6ec, #7a1c14, #b88938, #1e352f",
+      "rol_12_infodizayner_matric": "Правильный ответ всегда закреплён в Правом Верхнем Углу (★ Квадрат 4) с золотой рамкой и мгновенным считыванием за 3 секунды.",
+      "rol_13_verstalshchik_gost": "Эталон 13 страниц (1 обложка + 12 страниц блока по ГОСТ Р 7.0.4-2020), висячие строки = 0, воздух ≥ 25%.",
+      "rol_14_inzhener_pechati_kdp": "CMYK FOGRA39 (TAC ≤ 240%), вылеты 3.2 мм (0.125 in); индивидуальный выпуск 13 стр. для Kindle eBook + сборка в тома по 3 сказки (36 стр.) для KDP Paperback и по 8 сказок (108 стр.) для KDP Hardcover.",
+      "rol_15_ii_pedagog_sokrat": "Сократический режим: ИИ-наставник сначала задаёт наводящий вопрос по сказке и хвалит за размышление; не собирает персональные данные детей (Zero PII).",
+      "rol_16_prodyuser_amazon_kdp": "Наднациональное позиционирование 'The Ice Hut and the Bark Cottage: Kindness with Clear Boundaries' + западный культурный мостик в 1-й строке предисловия.",
+      "rol_17_yurist_rf": "ГК РФ ст. 301 (Виндикационный иск — истребование имущества из чужого незаконного владения), ст. 304 (Негаторный иск — защита прав собственника), ст. 14 (Самозащита гражданских прав соразмерными законными способами), ст. 1229 (Исключительное право на IP и программный код).",
+      "rol_18_yurist_mezhdunarodnoe_pravo": "English Law Injunctive Relief & Summary Possession Order; SaaS / IP Licensing Strict Revocation & Kill-Switch Clauses; International Arbitration (UNCITRAL / ICC) Expedited Procedure."
+    }
+  },
+  "amazon_kdp_paket": {
+    "en_title_family_6plus": "The Ice Hut and the Bark Cottage: Kindness with Clear Boundaries",
+    "en_subtitle_family_6plus": "Jupiter Wisdom Tales (Book 2) — Illustrated Family Read-Aloud & Healthy Boundaries Guide (Ages 6–10)",
+    "en_title_exec_12plus": "The Ice Hut and the Bark Cottage: Property Rights, Scope Creep, and Contract Enforcement",
+    "en_subtitle_exec_12plus": "Jupiter Executive Parables (Book 2) — A 2x2 Asset Protection & Boundary Playbook",
+    "author_kdp": "Zinaida Jupiter, DBA",
+    "series_kdp_family": "Jupiter Wisdom Tales: Family & Character Series (Book 2 of 16)",
+    "series_kdp_exec": "Jupiter Executive Parables: Folk Wisdom in Management (Book 2 of 16)",
+    "western_preface_bridge_en": "Parallel to the classic Eastern proverb of 'The Camel's Nose in the Tent', the Hare's Bark Cottage and the Fox's Ice Hut show how creeping boundary violations happen—and how clear voice and rule of law restore justice.",
+    "western_preface_bridge_ru": "Перекликаясь с всемирно известной притчей о «Носе верблюда в шатре», история Заюшкиной лубяной и лисьей ледяной избушек показывает, как шаг за шагом нарушаются границы — и как твёрдое правило возвращает хозяину его дом.",
+    "bisac_categories_3": [
+      "JUV039020 — JUVENILE FICTION / Social Themes / Bullying",
+      "FAM034000 — FAMILY & RELATIONSHIPS / Parenting / General",
+      "BUS010000 — BUSINESS & ECONOMICS / Commercial Law"
+    ],
+    "backend_keywords_7": [
+      "setting boundaries book for kids",
+      "hare and fox winter folk tale",
+      "protecting intellectual property book",
+      "preventing scope creep business",
+      "standing up for yourself story",
+      "illustrated woodland animal fables",
+      "contract negotiation leadership"
+    ],
+    "html_description_kdp_en": "<b>The Ice Hut and the Bark Cottage: Kindness with Clear Boundaries</b><br><i>Parallel to the classic Eastern proverb of 'The Camel's Nose in the Tent', the Hare's Bark Cottage and the Fox's Ice Hut show how creeping boundary violations happen—and how clear voice and rule of law restore justice.</i><br><br>Welcome to <b>Jupiter Wisdom Tales</b> by <b>Zinaida Jupiter, DBA</b> — the pioneering dual-layer book series that combines museum-quality folk tales with clear visual 2x2 decision matrices for both families and leaders.<br><br><b>Inside this book you will discover:</b><ul><li><b>A Richly Illustrated 5-Scene Story:</b> Warm, emotionally safe storytelling crafted for read-aloud family evenings (Ages 6–10).</li><li><b>Interactive 'Three Roads' Choice Simulator:</b> Helps children practice empathy, grit, and smart decision-making without tears or lectures.</li><li><b>The 2x2 Wisdom Matrix (★ Upper-Right Quadrant):</b> Turns ancient folk wisdom into an instant visual compass for parents, executives, and entrepreneurs.</li><li><b>24-Hour Behavioral Transfer:</b> Concrete dinner-table rituals and morning leadership checklists that turn reading into lasting habits.</li></ul><i>Collect all 16 books in the Jupiter Wisdom Tales series — where timeless folklore meets modern strategic thinking!</i>",
+    "kdp_formats_and_grouping": {
+      "kindle_ebook": "Individual 13-page illustrated edition (1600x2400 px RGB cover + fixed-layout KPF/EPUB)",
+      "paperback_pod": "Included in 3-Tale Paperback Trilogy Volume (36 pages, 8.5 x 8.5 in, full bleed 0.125 in, exceeds KDP 24-page minimum)",
+      "hardcover_omnibus": "Included in 8-Tale Golden Collector's Omnibus (108 pages, 8.5 x 11 in, exceeds KDP 75-page minimum)"
+    },
+    "kdp_ai_and_legal_compliance": {
+      "ai_content_disclosure": "Text & 2x2 Methodology: 100% Original Human Creation by Zinaida Jupiter, DBA. Illustrations: AI-generated with human artistic direction, color grading, and layout curation.",
+      "public_domain_status": "Original derivative work & educational apparatus based on Public Domain folklore (Berne Convention Art. 2(3)).",
+      "cpsia_and_coppa": "CPSIA tracking block on page 12; Zero PII collection in companion Socratic prompts."
+    }
+  }
+}

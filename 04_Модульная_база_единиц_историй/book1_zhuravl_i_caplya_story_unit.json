@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "story_id": "book1_zhuravl_i_caplya",
+    "issue_number": 1,
+    "series": "Сказки Мудрости Юпитера",
+    "series_en": "Tales of Jupiter Wisdom",
+    "author_ru": "Зинаида Юпитер",
+    "author_en": "Zinaida Jupiter, DBA",
+    "title_ru": "Журавль и цапля",
+    "title_en": "The Crane and the Heron",
+    "subtitle_ru": "Русская народная сказка с уроком смекалки для детей (6+) и матрицей «Золотого моста» для взрослых (DBA)",
+    "origin_culture": "Русская народная сказка",
+    "age_rating_family": "6+",
+    "age_rating_executive": "12+",
+    "style_preset": "STYLE_1_RUSSIAN_TEREM",
+    "isbn": "978-5-00000-001-7",
+    "status": "published_sample",
+    "pdf_ru_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/02_Образцы_Книг_На_Русском/01_Книга_1_Журавль_и_Цапля_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf",
+    "pdf_en_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/03_Образцы_Книг_EN_и_БРИКС/Book_1_The_Crane_and_The_Heron_EN.pdf",
+    "pdf_zh_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/03_Образцы_Книг_EN_и_БРИКС/Book_1_The_Crane_and_The_Heron_ZH_CN.pdf",
+    "pdf_executive_ru_path": "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/02_Образцы_Книг_На_Русском/01Б_Книга_1_Журавль_и_Цапля_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf",
+    "copyright_and_legal_colophon_ru": "© Зинаида Юпитер, 2026 • Все права защищены • Охраняется Бернской конвенцией (ст. 2(3) — оригинальная авторская адаптация и методология) • ГОСТ Р 7.0.4-2020 • ФЗ-436 (Семейное издание 6+ / Управленческое издание 12+) • ФЗ-53 (100% чистый русский язык без англицизмов)",
+    "copyright_and_legal_colophon_en": "© 2026 Zinaida Jupiter, DBA. All rights reserved. Protected under the Berne Convention (Art. 2(3) — Original Derivative Adaptation & Methodology). CPSIA Compliant (Consumer Product Safety Improvement Act) • COPPA / GDPR-K Zero-PII Certified."
+  },
+  "celi_i_klyuchi": {
+    "cel_rebenka_6plus": "Увидеть, как пустое упрямство и желание «отыграться» мешают двум добрым соседям стать друзьями, и научиться мириться с первого шага.",
+    "cel_roditelya_i_lidera": "Распознать переговорный маятник («болотный налог»), где стороны срывают выгодный союз ради 5 секунд уязвлённой гордости, и освоить метод «Золотого моста».",
+    "zolotoy_klyuchik_malym_ru": "1. Не придумывай обидных слов от зазнайства: если хочешь дружить — говори прямо и по-доброму. 2. Открывай дверь с первого раза: когда друг сам прошёл через всё болото мириться — ставь самовар, а не припоминай утреннюю ссору!",
+    "zolotoy_klyuchik_bolshim_ru": "1. Держите фокус в Правом Верхнем Квадрате: общая выгода союза и мир в доме всегда дороже минутного укола самолюбия. 2. Стройте «Золотой Мост»: помогайте вернувшемуся партнёру сохранить лицо, одновременно закрепляя чёткие правила на будущее.",
+    "golden_key_children_en": "Never invent hurtful words out of pride, and open the door the first time a friend walks across the marsh to make peace.",
+    "golden_key_adults_en": "Keep your focus in the Top-Right Quadrant: build a Golden Bridge that lets a returning partner save face while locking in clear terms."
+  },
+  "tekst_istorii": {
+    "predislovie_avtora_ru": "Как и в классических баснях Эзопа о гордости и нерешительности, история Журавля и Цапли показывает, как легко два достойных человека упускают лучшее время, ожидая первого шага друг от друга. В старой русской сказке «Журавль и цапля» спрятано сразу два золотых ключика. Когда эту книгу читает ребёнок — он видит, как пустое упрямство и желание «отыграться» мешают двум добрым соседям стать друзьями. А когда ту же сказку читает взрослый руководитель или родитель — он узнаёт в ней классическую ловушку переговоров, в которой срываются выгодные сделки и остывают отношения.",
+    "sceny_family_5str": [
+      {
+        "scena": 1,
+        "aforizm_ru": "Иногда между двумя близкими людьми лежит не семь вёрст болота, а всего один страх первым сказать: «Мне без тебя одиноко»…",
+        "tekst_ru": "Летела сова — весёлая голова. Летала-летала, на сучок села, хвостиком повертела да и дальше полетела. Это присказка, а сказка вся впереди. Жили-были на краю широкого болота Журавль да Цапля. Построили они себе избушки в разных концах — на семь вёрст друг от друга. Скучно стало Журавлю жить одному, и задумал он жениться."
+      },
+      {
+        "scena": 2,
+        "aforizm_ru": "Семь вёрст месил Журавль топкую трясину, да встретил у окошка не добрый привет, а холодную спесь.",
+        "tekst_ru": "Надел Журавль нарядный кафтан, взял посох и пошёл к Цапле свататься. Шёл-шёл по топкому болоту, устал. Дошёл до избушки, постучал клювом в окошко и говорит: «Цапля, пойдём за меня замуж! Вдвоём нам зимовать будет тепло и весело!» А Цапля задрала нос и отвечает с гордостью: «Нет, Журавль, не пойду за тебя! Ноги у тебя долгие, платье короткое, да и кормить меня тебе нечем! Ступай прочь!»"
+      },
+      {
+        "scena": 3,
+        "aforizm_ru": "Опустела горница, остыл самовар — и поняла Цапля, что гордыня в осеннюю стужу не греет.",
+        "tekst_ru": "Обиделся Журавль, опустил голову и побрёл домой несолоно хлебавши. А Цапля осталась одна в пустой избушке. Посидела она у холодного самовара, послушала, как осенний ветер в камышах шумит, и раздумалась: «И зачем я его прогнала? Ведь одной жить скучно и страшно, а Журавль — сосед добрый! Пойду-ка я к нему сама и соглашусь!»"
+      },
+      {
+        "scena": 4,
+        "aforizm_ru": "Пришла Цапля с повинной головой, да теперь уже в Журавле взыграла утренняя обида.",
+        "tekst_ru": "Накинула Цапля узорную шаль, прошла семь вёрст по болоту, пришла к Журавлю и кланяется: «Журавль, милый, я передумала! Возьми меня замуж!» А в Журавле обида взыграла. Отвернулся он и говорит: «Нет, Цапля! Мне теперь и самому жениться расхотелось! Уходи домой!»"
+      },
+      {
+        "scena": 5,
+        "aforizm_ru": "Широкую тропу протоптали соседи через болото, а перешагнуть через своё упрямство так и не смогли.",
+        "tekst_ru": "Заплакала Цапля от стыда и пошла обратно. А как только закрылась калитка, Журавль за голову схватился: «Зачем же я её прогнал?! Ведь я сам хотел с ней дружить!» — и снова побежал догонять. Вот так они и ходят друг к дружке по сей день: то Журавль к Цапле, то Цапля к Журавлю. Тропинку в болоте протоптали широкую, а договориться всё никак не могут!"
+      }
+    ]
+  },
+  "illyustracii": {
+    "style_preset": "STYLE_1_RUSSIAN_TEREM",
+    "palette_hex": [
+      "#fbf6ec",
+      "#8a281e",
+      "#8c6a38",
+      "#1e352f"
+    ],
+    "cover_ru_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/wow_cover_ru_family.png",
+    "cover_en_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/wow_cover_crossover_jpg_1792947562515.jpg",
+    "plates": [
+      {
+        "scena": 1,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/spread1_png_1792928051249.jpg",
+        "prompt_en": "Ivan Bilibin style illustration, two wooden Russian huts separated by seven versts of northern marsh, Crane in red embroidered kaftan setting out with a wooden staff."
+      },
+      {
+        "scena": 2,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/spread2_png_1792928070479.jpg",
+        "prompt_en": "Ivan Bilibin style, Crane knocking at carved window of Heron's hut, Heron turning away haughtily in patterned shawl."
+      },
+      {
+        "scena": 3,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/spread3_png_1792928102582.jpg",
+        "prompt_en": "Ivan Bilibin style, Heron sitting alone by a cold brass samovar in an empty wooden room, autumn reeds outside."
+      },
+      {
+        "scena": 4,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/spread4_png_1792928133544.jpg",
+        "prompt_en": "Ivan Bilibin style, Heron bowing at Crane's porch, Crane turning his back in stubborn pride."
+      },
+      {
+        "scena": 5,
+        "image_path": "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/spread5_png_1792928157491.jpg",
+        "prompt_en": "Ivan Bilibin style, wide trodden path across the marsh between two huts, Crane and Heron walking back and forth."
+      }
+    ]
+  },
+  "voprosy_i_zadaniya": {
+    "tayna_skazki_2stroki_ru": "В этой сказке нет ни одного злодея: ни Волк, ни Кощей не ссорили Журавля и Цаплю. Они сами наказали себя тем, что считали старые обиды вместо того, чтобы пить чай вдвоём.",
+    "voprosy_besedy_s_rebenkom": [
+      "Вопрос I (Смешная деталь): Цапля упрекнула Журавля, что у него «ноги долгие и платье короткое». А какие ноги и хвост у самой болотной Цапли? Почему, когда человек важничает, он ругает других за то, что есть у него самого?",
+      "Вопрос II (Спорный вопрос): Представь, что Журавль не обиделся и сразу пустил Цаплю в дом. Они бы зажили дружно — или Цапля снова начала бы командовать за самоваром? Как принять друга, но не дать себя в обиду?",
+      "Вопрос III (Кто смелее): Кому в этой сказке было труднее идти семь вёрст по грязи — Журавлю, когда он шёл свататься первым, или Цапле, когда она шла признавать свою ошибку?"
+    ],
+    "volshebnye_slova_druzhby": [
+      "Знаешь, мне утром было обидно от твоих слов. Но ты молодец, что пришёл мириться — заходи, ставлю самовар!"
+    ],
+    "igra_vybor_3_dorogi": {
+      "situaciya": "Четыре похода через трясину: в какой момент умнее всего разорвать круг обид?",
+      "variant_a_oshibka": "У окошка Цапли нагрубить с порога, чтобы набить себе цену.",
+      "variant_b_oshibka": "У порога Журавля прогнать друга, который сам прошёл семь вёрст мириться.",
+      "variant_v_vernyy": "Открыть дверь с первого раза и построить Чайную Беседку ровно посреди болота (по 3,5 версты навстречу!)."
+    },
+    "tvorcheskoe_zadanie_risunok": "Построй Чайную Беседку ровно посреди болота: нарисуй мостик и беседку с самоваром на полпути между домиками.",
+    "praktikum_rukovoditelya_5_tochek": [
+      "1. Какой затянувшийся спор в делах или семье сейчас съедает «болотный налог» вашего времени?",
+      "2. Где вы приняли защитную растерянность партнёра на первой встрече за окончательный отказ?",
+      "3. Не пытаетесь ли вы уколоть вернувшегося клиента или сотрудника фразой «А мы же предупреждали!»?",
+      "4. Какой «Золотой мост» поможет второй стороне согласиться с вами без потери лица?",
+      "5. Какое чёткое правило на берегу нужно зафиксировать сразу после примирения?"
+    ]
+  },
+  "metodika_i_matrica_2x2": {
+    "paradox_skazki_ru": "Оба героя искренне хотят союза, но остаются в проигрыше, потому что ставят минутную гордость выше общей цели.",
+    "os_y_vertikalnaya": {
+      "nazvanie_ru": "ШКАЛА Y: ВЫГОДА СОЮЗА",
+      "niz_ru": "Низкая",
+      "verh_ru": "Высокая ↑"
+    },
+    "os_x_gorizontalnaya": {
+      "nazvanie_ru": "ШКАЛА X: УВАЖЕНИЕ К ПАРТНЁРУ",
+      "levo_ru": "◄ Низкое (Гордыня)",
+      "pravo_ru": "Высокое (Диалог) ►"
+    },
+    "kvadraty": {
+      "kvadrat_1_levyy_nizhniy": {
+        "zagolovok_ru": "Квадрат 1: «Каприз Цапли»",
+        "sut_ru": "Высокомерный отказ на старте («Ноги долгие, платье короткое!»), чтобы набить себе цену. Итог: одиночество у холодного самовара."
+      },
+      "kvadrat_2_levyy_verhniy": {
+        "zagolovok_ru": "Квадрат 2: «Реванш Журавля»",
+        "sut_ru": "Союз выгоден, но когда партнёр пришёл мириться, вы мстите ему отказом («Мне расхотелось!»). Итог: срыв сделки ради 5 секунд гордости."
+      },
+      "kvadrat_3_pravyy_nizhniy": {
+        "zagolovok_ru": "Квадрат 3: «Болотная тропинка»",
+        "sut_ru": "Бесконечные хождения вокруг да около без чёткого договора («Так и ходят по сей день»). Силы и время тратятся впустую."
+      },
+      "kvadrat_4_pravyy_verhniy_pravilnyy_otvet": {
+        "zagolovok_ru": "★ Квадрат 4: «Золотой Мост» (Выбор Лидера)",
+        "sut_ru": "Высокая цель + уважение к партнёру. Вы помогаете вернувшемуся человеку сохранить лицо и заключаете крепкий, выгодный обоим союз."
+      }
+    },
+    "tri_pravila_perehoda_v_kvadrat_4": [
+      "Приём 1. Иммунитет к «холодному отказу» (Анти-Цапля): дайте партнёру переночевать с цифрами.",
+      "Приём 2. Запрет на отыгрыш (Анти-Журавль): никогда не упрекайте вернувшегося контрагента.",
+      "Приём 3. Перехват с фиксацией границ: примите шаг достойно и сразу закрепите рабочее правило."
+    ],
+    "tablica_rabochih_situaciy": [
+      {
+        "situaciya": "Клиент ушёл «искать дешевле», обжёгся и через месяц вернулся к вам",
+        "ubytschnyy_otvet": "«Ну что, побегали по рынку и поняли, что без нас никак? Теперь тариф выше».",
+        "pravilnyy_otvet_kvadrat_4": "«Рады вернуться к диалогу. Мы сохранили вашу смету — если фиксируем старт на этой неделе, прежние условия в силе»."
+      },
+      {
+        "situaciya": "Сильный руководитель направления раскритиковал проект на планёрке, а позже пришёл с планом",
+        "ubytschnyy_otvet": "«Поздно, надо было думать на совещании — я уже отдаю проект другому».",
+        "pravilnyy_otvet_kvadrat_4": "«Хорошо, что ты просчитал архитектуру глубже — веди проект. И правило на будущее: сначала считаем цифры, потом спорим на общей встрече»."
+      },
+      {
+        "situaciya": "Вы сами отказали сгоряча (как Цапля) и хотите вернуть сделку без потери лица",
+        "ubytschnyy_otvet": "Молчать из ложной гордости и наблюдать, как контракт уходит конкурентам.",
+        "pravilnyy_otvet_kvadrat_4": "«На первой встрече мы смотрели только на риски. Сейчас пересчитали экономику — ваш вариант даёт нужный эффект. Обсудим запуск?»"
+      }
+    ],
+    "krylatyy_slovar_komandy": [
+      "«Болотный налог» — потери времени и денег на взаимные обиды и пустые пересогласования.",
+      "«Реванш Журавля» — попытка уколоть вернувшегося партнёра или клиента ценой срыва сделки.",
+      "«Построить Золотой мост» — дать второй стороне возможность согласиться без потери достоинства."
+    ],
+    "sekret_skazki_ru": "1. Держите фокус в Правом Верхнем Квадрате: общая выгода союза и мир в доме всегда дороже минутного укола самолюбия. 2. Стройте «Золотой Мост»: помогайте вернувшемуся партнёру сохранить лицо, одновременно закрепляя чёткие правила на будущее."
+  },
+  "matrica_semeynaya_2x2": {
+    "zagolovok_ru": "❖ ЧЕТЫРЕ УРОКА СКАЗКИ ДЛЯ СЕМЬИ И ВОСПИТАНИЯ ❖",
+    "vvodnaya_mysl_ru": "Два полюса семейного общения: умение беречь общий дом и теплоту слова в момент обиды.",
+    "os_y_vertikalnaya": "СТРЕМЛЕНИЕ К ДОБРОМУ СОЮЗУ В СЕМЬЕ →",
+    "os_x_gorizontalnaya": {
+      "levo_ru": "Колкость и упрямство («Уходи!»)",
+      "centr_ru": "ТЕПЛОТА И УВАЖЕНИЕ К БЛИЗКОМУ",
+      "pravo_ru": "Открытое сердце и диалог"
+    },
+    "kvadraty": {
+      "kvadrat_1_levyy_nizhniy": {
+        "zagolovok_ru": "Урок I • Каприз и спесь Цапли — ХОЛОДНЫЙ ОТКАЗ С ПОРОГА",
+        "sut_ru": "Привычка встречать предложение близкого насмешкой или придирками («ноги долгие, платье короткое»), чтобы показать свою важность."
+      },
+      "kvadrat_2_levyy_verhniy": {
+        "zagolovok_ru": "Урок II • Обида и отыгрыш Журавля — МЕСТЬ ВМЕСТО ПРИМИРЕНИЯ",
+        "sut_ru": "Родной человек уже понял ошибку и сам пришёл мириться, но второй отталкивает его из желания «вернуть укол»."
+      },
+      "kvadrat_3_pravyy_nizhniy": {
+        "zagolovok_ru": "Урок III • Вежливость без шага навстречу — ХОЖДЕНИЕ ВОКРУГ САМОВАРА",
+        "sut_ru": "В доме никто не ссорится вслух, но каждый ждёт, что первый тёплый шаг сделает другой."
+      },
+      "kvadrat_4_pravyy_verhniy_pravilnyy_otvet": {
+        "zagolovok_ru": "★ ГАРМОНИЯ В СЕМЬЕ И ЖИЗНИ — ЗОЛОТОЙ МОСТ СОГЛАСИЯ",
+        "sut_ru": "В семье ценят родного человека выше минутной обиды: примирение принимают с первого раза и сразу ставят тёплый самовар."
+      }
+    }
+  },
+  "sovet_18_ekspertov": {
+    "kontur_1_smysl_i_metodologiya": {
+      "rol_01_dba_instrument": "Окно возможностей, стоимость промедления (Cost of Delay) и выход из переговорного маятника (Гарвардский метод принципиальных переговоров)",
+      "rol_02_mckinsey_mece_proverka": "Ось X (Скорость и решительность шага) × Ось Y (Глубина взаимного согласия и уважения) — образуют полную систему MECE без пересечений: от паралича сомнений (Кв. 1) и капризного торга (Кв. 2–3) к созидательному союзу с ясным сроком решения (★ Кв. 4).",
+      "rol_03_edtech_perenos_v_privychku_24ch": {
+        "dlya_semyi_segodnya_vecherom": "Сегодня за ужином договоритесь о правиле «Одна ясная просьба вместо трёх намёков»: если кто-то устал или хочет помощи, он говорит прямо и с улыбкой, без хлопанья дверью.",
+        "dlya_rukovoditelya_zavtra_utrom": "На ближайшей планёрке выделите 1 зависшую сделку или проект («болото переписки») и поставьте развилку на 48 часов: либо фиксируем твёрдые условия старта, либо закрываем вопрос и освобождаем ресурс."
+      },
+      "rol_04_skazochnik_transkreator": "T1 + T3: Убран мотив безысходной вечной ходьбы по болоту; показана тёплая самоирония героев и возможность разорвать круг гордыни одним честным разговором за самоваром.",
+      "rol_05_rezhisser_chteniya_vsluh_i_audio": "Темп первой половины — размеренный, с паузами «раздумья на болотной кочке»; в сцене 3–4 — ритмичный маятник шагов («топ-топ по росе»); в финале — тёплый грудной тембр рассказчика.",
+      "rol_06_briks_i_vostok_most": "Китай: притча о человеке из государства Янь, который разучился ходить по-своему; Индия (Панчатантра): рассказ о двух гордых путниках у переправы; Арабский Восток: пословица «Два капитана топят корабль, если молчат о курсе»."
+    },
+    "kontur_2_chetyre_auditorii": {
+      "rol_07_deti_6_10_let": "1. Не придумывай обидных слов от зазнайства: если хочешь дружить — говори прямо и по-доброму. 2. Открывай дверь с первого раза: когда друг сам прошёл через всё болото мириться — ставь самовар, а не припоминай утреннюю ссору!",
+      "rol_08_semya_i_60_plyus": "100% чистый русский язык без англицизмов и жаргона; уважение к бабушкам и дедушкам (60+) как хранителям семейного лада.",
+      "rol_09_upravlency_mba": "1. Держите фокус в Правом Верхнем Квадрате: общая выгода союза и мир в доме всегда дороже минутного укола самолюбия. 2. Стройте «Золотой Мост»: помогайте вернувшемуся партнёру сохранить лицо, одновременно закрепляя чёткие правила на будущее.",
+      "rol_10_predprinimateli_sovladelcy": "1. Держите фокус в Правом Верхнем Квадрате: общая выгода союза и мир в доме всегда дороже минутного укола самолюбия. 2. Стройте «Золотой Мост»: помогайте вернувшемуся партнёру сохранить лицо, одновременно закрепляя чёткие правила на будущее."
+    },
+    "kontur_3_vizual_produkt_pravo": {
+      "rol_11_hudozhnik_illyustrator": "Пресет STYLE_1_RUSSIAN_TEREM, палитра #fbf6ec, #8a281e, #8c6a38, #1e352f",
+      "rol_12_infodizayner_matric": "Правильный ответ всегда закреплён в Правом Верхнем Углу (★ Квадрат 4) с золотой рамкой и мгновенным считыванием за 3 секунды.",
+      "rol_13_verstalshchik_gost": "Эталон 13 страниц (1 обложка + 12 страниц блока по ГОСТ Р 7.0.4-2020), висячие строки = 0, воздух ≥ 25%.",
+      "rol_14_inzhener_pechati_kdp": "CMYK FOGRA39 (TAC ≤ 240%), вылеты 3.2 мм (0.125 in); индивидуальный выпуск 13 стр. для Kindle eBook + сборка в тома по 3 сказки (36 стр.) для KDP Paperback и по 8 сказок (108 стр.) для KDP Hardcover.",
+      "rol_15_ii_pedagog_sokrat": "Сократический режим: ИИ-наставник сначала задаёт наводящий вопрос по сказке и хвалит за размышление; не собирает персональные данные детей (Zero PII).",
+      "rol_16_prodyuser_amazon_kdp": "Наднациональное позиционирование 'The Crane and the Heron: A Story About Speaking Kindly and Deciding Together' + западный культурный мостик в 1-й строке предисловия.",
+      "rol_17_yurist_rf": "ГК РФ ст. 429 (Предварительный договор со сроком акцепта), ст. 431.1 (Переговоры о заключении договора — добросовестность и запрет ведения переговоров без намерения заключить сделку), ст. 450.1 (Отказ от договора при истечении срока оферты).",
+      "rol_18_yurist_mezhdunarodnoe_pravo": "UNIDROIT Principles Art. 2.1.15 (Negotiations in Bad Faith — ответственность за затягивание переговоров без намерения подписать контракт); English Law Heads of Terms with Long-Stop Date & Drop-Dead Fee; SHA Deadlock Resolution (Russian Roulette / Texas Shoot-Out)."
+    }
+  },
+  "amazon_kdp_paket": {
+    "en_title_family_6plus": "The Crane and the Heron: A Story About Speaking Kindly and Deciding Together",
+    "en_subtitle_family_6plus": "Jupiter Wisdom Tales (Book 1) — Illustrated Family Read-Aloud & Conversation Guide (Ages 6–10)",
+    "en_title_exec_12plus": "The Crane and the Heron: Escaping the Negotiation Pendulum and Cost of Delay",
+    "en_subtitle_exec_12plus": "Jupiter Executive Parables (Book 1) — A 2x2 Strategic Matrix & Decision Playbook for Leaders",
+    "author_kdp": "Zinaida Jupiter, DBA",
+    "series_kdp_family": "Jupiter Wisdom Tales: Family & Character Series (Book 1 of 16)",
+    "series_kdp_exec": "Jupiter Executive Parables: Folk Wisdom in Management (Book 1 of 16)",
+    "western_preface_bridge_en": "Just as in Aesop's classic fables of pride and hesitation, the Crane and the Heron show us how easily two good partners can miss their best opportunity by waiting for the other to bow first.",
+    "western_preface_bridge_ru": "Как и в классических баснях Эзопа о гордости и нерешительности, история Журавля и Цапли показывает, как легко два достойных человека упускают лучшее время, ожидая первого шага друг от друга.",
+    "bisac_categories_3": [
+      "JUV012030 — JUVENILE FICTION / Fairy Tales & Folklore / Adaptations",
+      "FAM034000 — FAMILY & RELATIONSHIPS / Parenting / Parent & Adult Child",
+      "BUS046000 — BUSINESS & ECONOMICS / Negotiating"
+    ],
+    "backend_keywords_7": [
+      "fables for kids decision making",
+      "family read aloud communication",
+      "negotiation skills parable book",
+      "overcoming indecision leadership",
+      "bedtime stories with moral matrix",
+      "social emotional learning conflict",
+      "illustrated folk tales wisdom"
+    ],
+    "html_description_kdp_en": "<b>The Crane and the Heron: A Story About Speaking Kindly and Deciding Together</b><br><i>Just as in Aesop's classic fables of pride and hesitation, the Crane and the Heron show us how easily two good partners can miss their best opportunity by waiting for the other to bow first.</i><br><br>Welcome to <b>Jupiter Wisdom Tales</b> by <b>Zinaida Jupiter, DBA</b> — the pioneering dual-layer book series that combines museum-quality folk tales with clear visual 2x2 decision matrices for both families and leaders.<br><br><b>Inside this book you will discover:</b><ul><li><b>A Richly Illustrated 5-Scene Story:</b> Warm, emotionally safe storytelling crafted for read-aloud family evenings (Ages 6–10).</li><li><b>Interactive 'Three Roads' Choice Simulator:</b> Helps children practice empathy, grit, and smart decision-making without tears or lectures.</li><li><b>The 2x2 Wisdom Matrix (★ Upper-Right Quadrant):</b> Turns ancient folk wisdom into an instant visual compass for parents, executives, and entrepreneurs.</li><li><b>24-Hour Behavioral Transfer:</b> Concrete dinner-table rituals and morning leadership checklists that turn reading into lasting habits.</li></ul><i>Collect all 16 books in the Jupiter Wisdom Tales series — where timeless folklore meets modern strategic thinking!</i>",
+    "kdp_formats_and_grouping": {
+      "kindle_ebook": "Individual 13-page illustrated edition (1600x2400 px RGB cover + fixed-layout KPF/EPUB)",
+      "paperback_pod": "Included in 3-Tale Paperback Trilogy Volume (36 pages, 8.5 x 8.5 in, full bleed 0.125 in, exceeds KDP 24-page minimum)",
+      "hardcover_omnibus": "Included in 8-Tale Golden Collector's Omnibus (108 pages, 8.5 x 11 in, exceeds KDP 75-page minimum)"
+    },
+    "kdp_ai_and_legal_compliance": {
+      "ai_content_disclosure": "Text & 2x2 Methodology: 100% Original Human Creation by Zinaida Jupiter, DBA. Illustrations: AI-generated with human artistic direction, color grading, and layout curation.",
+      "public_domain_status": "Original derivative work & educational apparatus based on Public Domain folklore (Berne Convention Art. 2(3)).",
+      "cpsia_and_coppa": "CPSIA tracking block on page 12; Zero PII collection in companion Socratic prompts."
+    }
+  }
+}

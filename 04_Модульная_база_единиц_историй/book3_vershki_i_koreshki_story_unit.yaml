@@ -1,0 +1,212 @@
+# Паспорт единицы истории: «Вершки и корешки» (Сказки Мудрости Юпитера, Выпуск №3)
+# Автор: Зинаида Юпитер (НИКОГДА НЕ СКЛОНЯЕТСЯ)
+# Проверен и обогащён Советом 18 экспертов (3 контура + Юристы РФ и Международного права + Amazon KDP)
+# Автоматическая сборка продуктов: /usr/bin/python3 ~/.claude/skills/skazki-mudrosti-yupiter/scripts/assemble_story_products.py
+
+meta:
+  story_id: "book3_vershki_i_koreshki"
+  issue_number: 3
+  series: "Сказки Мудрости Юпитера"
+  series_en: "Tales of Jupiter Wisdom"
+  author_ru: "Зинаида Юпитер"
+  author_en: "Zinaida Jupiter, DBA"
+  title_ru: "Вершки и корешки"
+  title_en: "Tops and Roots"
+  subtitle_ru: "Русская народная сказка о Мужике и Медведе с уроком смекалки (6+) и Матрицей долей и компетенций (DBA)"
+  origin_culture: "Русская народная сказка"
+  age_rating_family: "6+"
+  age_rating_executive: "12+"
+  style_preset: "STYLE_1_RUSSIAN_TEREM"
+  isbn: "978-5-00000-003-1"
+  status: "published_sample"
+  pdf_ru_path: "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/02_Образцы_Книг_На_Русском/03_Книга_3_Вершки_и_Корешки_ДЛЯ_РОДИТЕЛЕЙ_И_ДЕТЕЙ_RU.pdf"
+  pdf_en_path: "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/03_Образцы_Книг_EN_и_БРИКС/Book_3_Tops_and_Roots_EN.pdf"
+  pdf_executive_ru_path: "~/Documents/Архив/Книги/Сказки Мудрости Юпитера/02_Образцы_Книг_На_Русском/03Б_Книга_3_Вершки_и_Корешки_УПРАВЛЕНЧЕСКИЙ_РАЗБОР_RU.pdf"
+  copyright_and_legal_colophon_ru: "© Зинаида Юпитер, 2026 • Все права защищены • Охраняется Бернской конвенцией (ст. 2(3) — оригинальная авторская адаптация и методология) • ГОСТ Р 7.0.4-2020 • ФЗ-436 (Семейное издание 6+ / Управленческое издание 12+) • ФЗ-53 (100% чистый русский язык без англицизмов)"
+  copyright_and_legal_colophon_en: "© 2026 Zinaida Jupiter, DBA. All rights reserved. Protected under the Berne Convention (Art. 2(3) — Original Derivative Adaptation & Methodology). CPSIA Compliant (Consumer Product Safety Improvement Act) • COPPA / GDPR-K Zero-PII Certified."
+celi_i_klyuchi:
+  cel_rebenka_6plus: "Понять, почему знания природы и честный труд всегда сильнее ленивого рыка и почему вчерашний ответ не подходит к новой задаче."
+  cel_roditelya_i_lidera: "Увидеть, почему сильный игрок с ресурсом («Медведь»), не разбирающийся в сути продукта, дважды остаётся с ботвой, и выстроить «Союз Мастера и Ресурса»."
+  zolotoy_klyuchik_malym_ru: "1. Учись и познавай мир: кто знает, как растёт репа и пшеница, того никто не проведёт. 2. Трудись честно: урожай любит заботливые руки, а не ленивый рык. 3. Делись по справедливости."
+  zolotoy_klyuchik_bolshim_ru: "1. Стремитесь в Правый Верхний Квадрат (Квадрат 4): экспертиза в продукте + честный дизайн сделки. 2. Ищите суть ценности: не путайте пышную форму («ботву») с реальным активом («корнем»). 3. Отказ от шаблонов на новом рынке."
+  golden_key_children_en: "Knowledge and honest work beat a loud roar every time; always learn where the true fruit grows."
+  golden_key_adults_en: "Capital without domain expertise buys useless tops; unite deep product mastery with fair profit-sharing in the final harvest."
+tekst_istorii:
+  predislovie_avtora_ru: "Перекликаясь с мировой притчей о «Вершках и корешках», история Мужика и Медведя показывает детям и основателям бизнеса, почему хитрая уловка в первом сезоне всегда стоит потери партнёра во втором. Сказка «Вершки и корешки» за две минуты объясняет то, чему на программах управления учат годами. Ребёнок с улыбкой видит, почему знание природы и трудолюбие крестьянина оказываются сильнее медвежьей лапы. А взрослый руководитель и инвестор узнаёт в Медведе типичную ошибку сильного игрока, который диктует условия сделки («мне вершки!», «теперь мне корешки!»), не разбираясь в сути самого продукта — и дважды остаётся с сухой ботвой."
+  sceny_family_5str:
+    - scena: 1
+      aforizm_ru: "Кто дело до корня знает, тот и при грозном соседе со своим урожаем останется."
+      tekst_ru: "Выехал ранней весной трудолюбивый Мужик на лесную поляну землю пахать да сладкую репу сеять. Только проложил первую борозду, как выходит из дубравы косолапый Медведь — хозяин лесной — и рычит грозно: «Мужик, а Мужик! Зачем в моём лесу пашешь? Вот я тебя сейчас поломаю!» Не растерялся сметливый пахарь, снял шапку да ласково отвечает: «Не губи меня, Михайло Потапыч! Давай лучше вместе репу сеять: я землю вспашу, семена брошу да выхожу урожай, а осенью поделим по уговору. Чур, кому вершки, а кому корешки?» Подумал Медведь: «Вершки-то на солнышке растут, зелёные да пышные!» — и прогремел: «Мне — вершки, а тебе — корешки!»"
+    - scena: 2
+      aforizm_ru: "Осенний делёж: Мужик складывает на телегу янтарную репу, а Медведь уносит гору зелёной ботвы."
+      tekst_ru: "Всё лето трудился Мужик на полосе: репу полол, ключевой водой поливал. Выросла к осени репа крупная, круглая, ровно янтарное золото в земле светится! Вышел Мужик с телегой урожай копать, а тут и Медведь из чащи шагает: «Ну, Мужик, давай по уговору делить — подавай мои вершки!» Срезал Мужик всю зелёную ботву и сложил Медведю целую гору: «Бери, Михайло Потапыч, всё до единого листочка по нашему слову!» Обрадовался Медведь, что его куча вдвое выше телеги, сгрёб охапку ботвы в лапы и важно зашагал в берлогу, а Мужик сложил сладкую золотую репу на воз и повёз в город продавать."
+    - scena: 3
+      aforizm_ru: "Встреча на лесной дороге: Медведь пробует сладкую пареную репку и требует сменить уговор."
+      tekst_ru: "Сел Медведь на лесной пенёк, стал свои зелёные вершки жевать — а ботва-то жёсткая да горькая! Вдруг слышит: едет по дороге Мужик на расписной телеге да румяной пареной репой полавливается. «Мужик, а Мужик, что это ты ешь?» — «А это, Михайло Потапыч, мои корешки!» Дал Мужик Медведю одну репку попробовать. Раскусил её косолапый — слаще мёда! Заревел тогда Медведь от досады: «Обманул ты меня, Мужик! Твои корешки сладкие, а мои вершки горькие! Ну, погоди: на будущий год посеешь у леса — мне отдашь корешки, а себе оставишь вершки!»"
+    - scena: 4
+      aforizm_ru: "Второе лето: среди золотой пшеницы Медведь грозно требует себе корешки."
+      tekst_ru: "На следующую весну приехал Мужик на ту же лесную опушку, только посеял он на этот раз не репу, а золотую пшеницу. Заколосилась к концу лета нива — стоит стеной янтарной, тяжёлыми зёрнами на солнце переливается. Приходит Медведь на жнивье, грозно лапой в землю тычет: «Помнишь, Мужик, наш уговор? В прошлом году я на вершках прогадал — теперь меня не проведёшь! Подавай мне корешки, а себе забирай вершки!» Поклонился Мужик спокойно: «Как скажешь, Михайло Потапыч, пусть будет по-твоему!»"
+    - scena: 5
+      aforizm_ru: "Жатва: Мужик увозит полные снопы пшеницы на белый хлеб, а Медведь остаётся с сухой стернёй."
+      tekst_ru: "Сжали они пшеницу: Мужик собрал на телегу полные, налитые колосья — вершки, а Медведю оставил целое поле сухих да колючих пшеничных корней. Намолотил Мужик белой муки, напёк пышных ситных калачей да пирогов, а Медведь бился-бился над сухими корешками — в рот не возьмёшь! Рассердился тогда Медведь пуще прежнего, что снова с пустыми лапами остался, махнул в глухую чащу и с той поры в крестьянские дела соваться зарёкся. А Мужик со своей семьёй всю зиму белый хлеб ел да добрым людям помогал."
+illyustracii:
+  style_preset: "STYLE_1_RUSSIAN_TEREM"
+  palette_hex:
+    - "#fbf6ec"
+    - "#7a1c14"
+    - "#b88938"
+    - "#1e352f"
+  plates:
+    - scena: 1
+      image_path: "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b3_vershki_s1.jpg"
+      prompt_en: "Ivan Bilibin style, Russian peasant with wooden plow at forest edge bargaining with a giant brown Bear in boyar vest over sowing turnips."
+    - scena: 2
+      image_path: "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b3_vershki_s2.jpg"
+      prompt_en: "Ivan Bilibin style, autumn harvest: peasant loading golden turnips onto cart while Bear happily carries a huge pile of green turnip tops."
+    - scena: 3
+      image_path: "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b3_vershki_s3.jpg"
+      prompt_en: "Ivan Bilibin style, Bear sitting on a stump tasting sweet steamed turnip from the peasant's cart and roaring in frustration."
+    - scena: 4
+      image_path: "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b3_vershki_s4.jpg"
+      prompt_en: "Ivan Bilibin style, golden wheat field in summer, Bear pointing his paw at the ground demanding the roots."
+    - scena: 5
+      image_path: "/Users/zinaida/.gemini/antigravity/brain/01aa6dac-da30-4420-a811-16ce71ba22a7/b3_vershki_s5.jpg"
+      prompt_en: "Ivan Bilibin style, peasant driving cart of golden wheat sheaves while Bear sits bewildered among dry wheat stubble."
+voprosy_i_zadaniya:
+  tayna_skazki_2stroki_ru: "Знания сильнее любого рыка! Медведь хотел забрать лучшую долю без труда, но ленился узнать, как устроены растения — и дважды сам себя перехитрил."
+  voprosy_besedy_s_rebenkom:
+    - "Вопрос I (Суд честных судей): Медведь кричал: «Ты меня обманул!» А разве Мужик нарушил слово? Кто на самом деле перехитрил Медведя — Мужик или собственное незнание косолапого?"
+    - "Вопрос II (Ловушка вчерашнего ответа): Почему правильный вчерашний ответ («брать корешки») оказался ошибкой на пшеничном поле?"
+    - "Вопрос III (Третье лето сказки): Если на третий год Медведь пришёл помогать — брёвна таскать и поле сторожить, — как тогда честнее всего поделить урожай?"
+  volshebnye_slova_druzhby:
+    - "Глаз ленивого видит только то, что выше торчит, а ум мастера знает, где спрятано настоящее зерно!"
+  igra_vybor_3_dorogi:
+    situaciya: "Викторина юного агронома: что выбрать — вершки, корешки или оба сразу?"
+    variant_a_oshibka: "Выбрать у картофеля зелёные вершки-ягодки, потому что они растут на солнышке."
+    variant_b_oshibka: "По старой памяти выдернуть у клубники корешки и выбросить ягоды."
+    variant_v_vernyy: "Изучить каждое растение (а для общей дружбы посадить петрушку, укроп и лучок, где вкусны и вершки, и корешки!)."
+  tvorcheskoe_zadanie_risunok: "Нарисуй «Волшебный огород дружбы» в разрезе: что зреет под землёй, а что колосится над землёй."
+  praktikum_rukovoditelya_5_tochek:
+    - "1. В каком проекте вы или ваш вкладчик рискуете перепутать пышную «ботву» (обороты, внешний шум) со сладким «корнем» (чистой прибылью и правом на технологию)?"
+    - "2. Где команда пытается применить прошлогодний шаблон («брать корешки») на совершенно новом поле?"
+    - "3. Какая ключевая компетенция в вашем бизнесе делает вас незаменимым «Мастером поля»?"
+    - "4. Как перевести спор о процессе в честное деление конечного продукта («готового каравая»)?"
+    - "5. Что в вашем портфеле сейчас является «репой» (капитализация вглубь), а что — «пшеницей» (быстрый денежный поток)?"
+metodika_i_matrica_2x2:
+  paradox_skazki_ru: "Сильный игрок с административным ресурсом (Медведь) дважды сам назначает условия сделки, но оба раза получает ноль из-за нулевого понимания продукта."
+  os_y_vertikalnaya:
+    nazvanie_ru: "ШКАЛА Y: ЗНАНИЕ СУТИ ПРОДУКТА"
+    niz_ru: "Низкое"
+    verh_ru: "Высокое ↑"
+  os_x_gorizontalnaya:
+    nazvanie_ru: "ШКАЛА X: ЧЕСТНОСТЬ ДОГОВОРА"
+    levo_ru: "◄ Низкое (Диктат)"
+    pravo_ru: "Высокое (Баланс долей) ►"
+  kvadraty:
+    kvadrat_1_levyy_nizhniy:
+      zagolovok_ru: "Квадрат 1: «Диктат Медведя на репе»"
+      sut_ru: "Попытка продавить сделку силой («Мне вершки!»), не изучив экономику проекта. Итог: гора горькой ботвы вместо прибыли."
+    kvadrat_2_levyy_verhniy:
+      zagolovok_ru: "Квадрат 2: «Асимметрия Мужика»"
+      sut_ru: "Мастер знает, где создаётся ценность (в корне репы или в колосе пшеницы), и спасает урожай от шантажа, но партнёрство рушится."
+    kvadrat_3_pravyy_nizhniy:
+      zagolovok_ru: "Квадрат 3: «Шаблон на пшенице»"
+      sut_ru: "Механический перенос старого вывода («Теперь беру корешки!») на новый рынок без анализа смены продукта."
+    kvadrat_4_pravyy_verhniy_pravilnyy_otvet:
+      zagolovok_ru: "★ Квадрат 4: «Союз Мастера и Ресурса»"
+      sut_ru: "Глубокое понимание ценности + честная формула долей. Инвестор и мастер делят чистый конечный продукт (хлеб и репу), а не ботву."
+  tri_pravila_perehoda_v_kvadrat_4:
+    - "Шаг 1. Изучите «ботанику бизнеса» до подписания долей (Анти-Медведь)."
+    - "Шаг 2. Не копируйте прошлый контракт вслепую при смене рынка."
+    - "Шаг 3. Делите только конечный съедобный продукт (Принцип Квадрата 4)."
+  tablica_rabochih_situaciy:
+    - situaciya: "Вход инвестора в технологический или образовательный проект"
+      ubytschnyy_otvet: "Забрать 70% оборота («вершки»), оставив команду без ресурса развития."
+      pravilnyy_otvet_kvadrat_4: "Оценить вклад капитала и экспертизы, деля чистую прибыль от готового продукта."
+    - situaciya: "Запуск нового направления после прошлой неудачи"
+      ubytschnyy_otvet: "Механически переписать прошлый договор с точностью до наоборот."
+      pravilnyy_otvet_kvadrat_4: "Провести свежий аудит: где именно рождается ключевая ценность в новом продукте."
+    - situaciya: "Переговоры с обладателем крупного ресурса"
+      ubytschnyy_otvet: "Уйти в скрытую информационную войну («оставить с ботвой»)."
+      pravilnyy_otvet_kvadrat_4: "Перевести диалог на язык взаимной выгоды: «Мой труд + ваша защита = 80/20 в готовом зерне»."
+  krylatyy_slovar_komandy:
+    - "«Унести ботву» — забрать формально большую, но бесполезную часть сделки из-за незнания продукта."
+    - "«Ошибка Медведя на пшенице» — слепо применить вчерашнее правило к новой задаче."
+    - "«Союз Мастера и Ресурса» — честное партнёрство экспертизы и капитала в Квадрате 4."
+  sekret_skazki_ru: "1. Стремитесь в Правый Верхний Квадрат (Квадрат 4): экспертиза в продукте + честный дизайн сделки. 2. Ищите суть ценности: не путайте пышную форму («ботву») с реальным активом («корнем»). 3. Отказ от шаблонов на новом рынке."
+matrica_semeynaya_2x2:
+  zagolovok_ru: "❖ ЧЕТЫРЕ УРОКА СКАЗКИ ДЛЯ СЕМЬИ И ВОСПИТАНИЯ ❖"
+  vvodnaya_mysl_ru: "Как научить ребёнка зрить в корень дела и соединять знания с честным товариществом."
+  os_y_vertikalnaya: "ЗНАНИЕ СУТИ ДЕЛА И ТРУДОЛЮБИЕ →"
+  os_x_gorizontalnaya:
+    levo_ru: "Давление силой («Мне всё!»)"
+    centr_ru: "СПРАВЕДЛИВЫЙ УГОВОР И СОГЛАСИЕ"
+    pravo_ru: "Честный делёж по труду"
+  kvadraty:
+    kvadrat_1_levyy_nizhniy:
+      zagolovok_ru: "Урок I • Рык Медведя — ЛЕНЬ И ПОГОНЯ ЗА ВНЕШНИМ («БОТВОЙ»)"
+      sut_ru: "Требовать себе лучшую долю громким голосом, не желая ни потрудиться, ни узнать, как устроено дело."
+    kvadrat_2_levyy_verhniy:
+      zagolovok_ru: "Урок II • Одинокая защита Мужика — СМЕКАЛКА ПРОТИВ СИЛЫ"
+      sut_ru: "Мастер спасает свой урожай умом, но из-за жадности соседа доброго товарищества между ними не выходит."
+    kvadrat_3_pravyy_nizhniy:
+      zagolovok_ru: "Урок III • Вчерашняя подсказка — УСЕРДИЕ БЕЗ ПОНИМАНИЯ"
+      sut_ru: "Стараться играть по правилам, но слепо повторять старый ответ там, где задача уже изменилась."
+    kvadrat_4_pravyy_verhniy_pravilnyy_otvet:
+      zagolovok_ru: "★ ГАРМОНИЯ В СЕМЬЕ И ЖИЗНИ — СОЮЗ ЗНАНИЯ, ТРУДА И ПРАВДЫ"
+      sut_ru: "Глубокое понимание дела + дружная работа и справедливое разделение плодов по вкладу каждого."
+sovet_18_ekspertov:
+  kontur_1_smysl_i_metodologiya:
+    rol_01_dba_instrument: "Архитектура справедливого партнёрского соглашения (Shareholders' Agreement / SLA), привязка распределения прибыли к реальной цепочке создания ценности и аудит предмета сделки"
+    rol_02_mckinsey_mece_proverka: "Ось X (Глубина знания матчасти и предмета договора) × Ось Y (Справедливость учёта вклада второго партнёра) — дают 4 точных сценария: от дилетантского спора (Кв. 1) и хищнического перекоса «вершки/корешки» (Кв. 2–3) к долгосрочному совместному предприятию (★ Кв. 4)."
+    rol_03_edtech_perenos_v_privychku_24ch:
+      dlya_semyi_segodnya_vecherom: "При любом общем домашнем деле сегодня сначала вместе назовите, что в этом деле «сладкий корень», а что «ботвушка», и разделите и труд, и радость пополам."
+      dlya_rukovoditelya_zavtra_utrom: "Перечитайте 1 действующий партнёрский или подрядный договор: проверьте, привязано ли вознаграждение к конечному полезному продукту («съедобной части урожая»), а не к формальному объёму отчётов («ботве»)."
+    rol_04_skazochnik_transkreator: "T1 + T4: Сказка переведена из плоскости «как перехитрить соседа» в плоскость «почему сделка с односторонней выгодой разрушает партнёрство уже на второй сезон и как делить урожай по совести»."
+    rol_05_rezhisser_chteniya_vsluh_i_audio: "Контраст басовитого, нетерпеливого голоса Медведя и спокойного, рассудительного тона Мужика; выразительные паузы перед объявлением «А теперь, Михайло Потапыч, твои вершки!»."
+    rol_06_briks_i_vostok_most: "Европа (братья Гримм, Рабле): сказка о крестьянине и разделе урожая репы и пшеницы; Индия: притча о разделе коровы и пальмы; Китай: принцип «Гун Ин» (взаимный выигрыш в торговом товариществе)."
+  kontur_2_chetyre_auditorii:
+    rol_07_deti_6_10_let: "1. Учись и познавай мир: кто знает, как растёт репа и пшеница, того никто не проведёт. 2. Трудись честно: урожай любит заботливые руки, а не ленивый рык. 3. Делись по справедливости."
+    rol_08_semya_i_60_plyus: "100% чистый русский язык без англицизмов и жаргона; уважение к бабушкам и дедушкам (60+) как хранителям семейного лада."
+    rol_09_upravlency_mba: "1. Стремитесь в Правый Верхний Квадрат (Квадрат 4): экспертиза в продукте + честный дизайн сделки. 2. Ищите суть ценности: не путайте пышную форму («ботву») с реальным активом («корнем»). 3. Отказ от шаблонов на новом рынке."
+    rol_10_predprinimateli_sovladelcy: "1. Стремитесь в Правый Верхний Квадрат (Квадрат 4): экспертиза в продукте + честный дизайн сделки. 2. Ищите суть ценности: не путайте пышную форму («ботву») с реальным активом («корнем»). 3. Отказ от шаблонов на новом рынке."
+  kontur_3_vizual_produkt_pravo:
+    rol_11_hudozhnik_illyustrator: "Пресет STYLE_1_RUSSIAN_TEREM, палитра #fbf6ec, #7a1c14, #b88938, #1e352f"
+    rol_12_infodizayner_matric: "Правильный ответ всегда закреплён в Правом Верхнем Углу (★ Квадрат 4) с золотой рамкой и мгновенным считыванием за 3 секунды."
+    rol_13_verstalshchik_gost: "Эталон 13 страниц (1 обложка + 12 страниц блока по ГОСТ Р 7.0.4-2020), висячие строки = 0, воздух ≥ 25%."
+    rol_14_inzhener_pechati_kdp: "CMYK FOGRA39 (TAC ≤ 240%), вылеты 3.2 мм (0.125 in); индивидуальный выпуск 13 стр. для Kindle eBook + сборка в тома по 3 сказки (36 стр.) для KDP Paperback и по 8 сказок (108 стр.) для KDP Hardcover."
+    rol_15_ii_pedagog_sokrat: "Сократический режим: ИИ-наставник сначала задаёт наводящий вопрос по сказке и хвалит за размышление; не собирает персональные данные детей (Zero PII)."
+    rol_16_prodyuser_amazon_kdp: "Наднациональное позиционирование 'Tops and Bottoms (The Bear and the Farmer): Fairness, Work, and Honest Sharing' + западный культурный мостик в 1-й строке предисловия."
+    rol_17_yurist_rf: "ГК РФ ст. 1041–1048 (Договор простого товарищества и распределение прибыли пропорционально реальному вкладу), ст. 432 (Существенные условия о предмете договора), ст. 178 (Недействительность сделки, совершённой под влиянием существенного заблуждения о природе актива)."
+    rol_18_yurist_mezhdunarodnoe_pravo: "English Common Law Joint Venture & Shareholders' Agreement (KPI Specification: Gross Revenue vs Net Distributable Profit / EBITDA); CISG Art. 8 (Interpretation of party intent based on reasonable commercial understanding)."
+amazon_kdp_paket:
+  en_title_family_6plus: "Tops and Bottoms (The Bear and the Farmer): Fairness, Work, and Honest Sharing"
+  en_subtitle_family_6plus: "Jupiter Wisdom Tales (Book 3) — Illustrated Family Read-Aloud & Conversation Guide (Ages 6–10)"
+  en_title_exec_12plus: "Tops and Bottoms: Joint Venture Architecture, Value Allocation, and Contract Clarity"
+  en_subtitle_exec_12plus: "Jupiter Executive Parables (Book 3) — A 2x2 Strategic Matrix & Partnership Playbook"
+  author_kdp: "Zinaida Jupiter, DBA"
+  series_kdp_family: "Jupiter Wisdom Tales: Family & Character Series (Book 3 of 16)"
+  series_kdp_exec: "Jupiter Executive Parables: Folk Wisdom in Management (Book 3 of 16)"
+  western_preface_bridge_en: "Echoing the classic European folk tale of 'Tops and Bottoms', the Bear and the Farmer teach both children and founders why a clever trick in Round One always costs you a partner in Round Two."
+  western_preface_bridge_ru: "Перекликаясь с мировой притчей о «Вершках и корешках», история Мужика и Медведя показывает детям и основателям бизнеса, почему хитрая уловка в первом сезоне всегда стоит потери партнёра во втором."
+  bisac_categories_3:
+    - "JUV012040 — JUVENILE FICTION / Fairy Tales & Folklore / Country & Ethnic"
+    - "FAM034000 — FAMILY & RELATIONSHIPS / Parenting / General"
+    - "BUS069030 — BUSINESS & ECONOMICS / Strategic Planning"
+  backend_keywords_7:
+    - "tops and bottoms folk tale"
+    - "fair sharing story for kids"
+    - "business partnership agreement book"
+    - "joint venture strategy parable"
+    - "learning about plants and harvest"
+    - "honesty and teamwork fables"
+    - "executive decision matrix 2x2"
+  html_description_kdp_en: "<b>Tops and Bottoms (The Bear and the Farmer): Fairness, Work, and Honest Sharing</b><br><i>Echoing the classic European folk tale of 'Tops and Bottoms', the Bear and the Farmer teach both children and founders why a clever trick in Round One always costs you a partner in Round Two.</i><br><br>Welcome to <b>Jupiter Wisdom Tales</b> by <b>Zinaida Jupiter, DBA</b> — the pioneering dual-layer book series that combines museum-quality folk tales with clear visual 2x2 decision matrices for both families and leaders.<br><br><b>Inside this book you will discover:</b><ul><li><b>A Richly Illustrated 5-Scene Story:</b> Warm, emotionally safe storytelling crafted for read-aloud family evenings (Ages 6–10).</li><li><b>Interactive 'Three Roads' Choice Simulator:</b> Helps children practice empathy, grit, and smart decision-making without tears or lectures.</li><li><b>The 2x2 Wisdom Matrix (★ Upper-Right Quadrant):</b> Turns ancient folk wisdom into an instant visual compass for parents, executives, and entrepreneurs.</li><li><b>24-Hour Behavioral Transfer:</b> Concrete dinner-table rituals and morning leadership checklists that turn reading into lasting habits.</li></ul><i>Collect all 16 books in the Jupiter Wisdom Tales series — where timeless folklore meets modern strategic thinking!</i>"
+  kdp_formats_and_grouping:
+    kindle_ebook: "Individual 13-page illustrated edition (1600x2400 px RGB cover + fixed-layout KPF/EPUB)"
+    paperback_pod: "Included in 3-Tale Paperback Trilogy Volume (36 pages, 8.5 x 8.5 in, full bleed 0.125 in, exceeds KDP 24-page minimum)"
+    hardcover_omnibus: "Included in 8-Tale Golden Collector's Omnibus (108 pages, 8.5 x 11 in, exceeds KDP 75-page minimum)"
+  kdp_ai_and_legal_compliance:
+    ai_content_disclosure: "Text & 2x2 Methodology: 100% Original Human Creation by Zinaida Jupiter, DBA. Illustrations: AI-generated with human artistic direction, color grading, and layout curation."
+    public_domain_status: "Original derivative work & educational apparatus based on Public Domain folklore (Berne Convention Art. 2(3))."
+    cpsia_and_coppa: "CPSIA tracking block on page 12; Zero PII collection in companion Socratic prompts."
