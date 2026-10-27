@@ -3,530 +3,996 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Сказки Мудрости Юпитера — Зинаида Юпитер, DBA | 16 сказок (64 книги PDF: RU + EN)</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background: #FAF3E3;
-      color: #23170B;
-    }
-    header {
-      background: linear-gradient(135deg, #5A1414 0%, #2E0909 100%);
-      color: #F9E8B2;
-      padding: 32px 20px;
-      text-align: center;
-      border-bottom: 4px solid #C59B27;
-    }
-    .lang-switch {
-      display: inline-flex;
-      gap: 10px;
-      margin-bottom: 14px;
-      background: rgba(255,255,255,0.08);
-      padding: 6px 12px;
-      border-radius: 20px;
-      border: 1px solid #C59B27;
-    }
-    .lang-switch a {
-      color: #FFFDF7;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: bold;
-      padding: 4px 10px;
-      border-radius: 14px;
-    }
-    .lang-switch a.active {
-      background: #C59B27;
-      color: #2E0909;
-    }
-    header h1 {
-      margin: 0 0 8px 0;
-      font-size: 28px;
-      letter-spacing: 0.04em;
-    }
-    header p {
-      margin: 4px auto;
-      max-width: 860px;
-      font-size: 16px;
-      color: #F4DFB0;
-    }
-    .container {
-      max-width: 1240px;
-      margin: 0 auto;
-      padding: 28px 20px 60px;
-    }
-    .top-docs {
-      background: #FFFDF7;
-      border: 2px solid #C59B27;
-      border-radius: 10px;
-      padding: 18px 22px;
-      margin-bottom: 28px;
-      box-shadow: 0 4px 14px rgba(90, 20, 20, 0.08);
-    }
-    .top-docs h2 {
-      margin: 0 0 12px 0;
-      color: #6E1D15;
-      font-size: 20px;
-    }
-    .doc-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .doc-links a {
-      background: #F7E7C4;
-      color: #4A1410;
-      text-decoration: none;
-      padding: 8px 14px;
-      border-radius: 6px;
-      border: 1px solid #C59B27;
-      font-size: 14px;
-      font-weight: bold;
-    }
-    .doc-links a:hover {
-      background: #EED294;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #FFFDF9;
-      border: 1.5px solid #C8AD78;
-      border-top: 4px solid #7A1C1C;
-      border-radius: 10px;
-      padding: 18px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-    }
-    .card-badge {
-      font-size: 12px;
-      font-weight: bold;
-      color: #8A6621;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-    .card h3 {
-      margin: 6px 0 2px 0;
-      font-size: 20px;
-      color: #6E1D15;
-    }
-    .en-sub {
-      font-style: italic;
-      color: #5C3C1E;
-      font-size: 14px;
-      margin-bottom: 8px;
-    }
-    .desc {
-      font-size: 14px;
-      line-height: 1.4;
-      color: #2C2013;
-      margin: 0 0 14px 0;
-    }
-    .btn-group {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-    .btn {
-      display: block;
-      text-align: center;
-      text-decoration: none;
-      padding: 8px 10px;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: bold;
-    }
-    .btn-ru-fam {
-      background: #7A1C1C;
-      color: #FFFDF7;
-    }
-    .btn-ru-mgmt {
-      background: #1E4D2B;
-      color: #FFFDF7;
-    }
-    .btn-en-fam {
-      background: #F5E2B8;
-      color: #5A1414;
-      border: 1px solid #B89758;
-    }
-    .btn-en-mgmt {
-      background: #D9EFE0;
-      color: #143A20;
-      border: 1px solid #73A982;
-    }
-    .meta-links {
-      font-size: 12.5px;
-      border-top: 1px dashed #D3B474;
-      padding-top: 8px;
-      color: #6E4E23;
-    }
-    .meta-links a {
-      color: #7A1C1C;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 13px;
-      color: #5A3E28;
-      border-top: 1px solid #D3B474;
-    }
-</style>
+  <title>Сказки Мудрости Юпитера: коллекционные иллюстрированные книги для детей (6+) и взрослых (12+)</title>
+  <meta name="description" content="Пополняемая коллекция иллюстрированных книг серии «Сказки Мудрости Юпитера». Певучие народные сказки с вопросами для тёплой беседы с ребёнком (6+) и жизненными и управленческими советами для взрослых (12+).">
+  <link rel="canonical" href="https://skazki-yupiter.ru/">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="apple-touch-icon" href="img/favicon.svg">
+  <link rel="preload" as="image" href="img/covers/b1_fam.jpg?v=20261027v4" fetchpriority="high">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Сказки Мудрости Юпитера">
+  <meta property="og:title" content="Сказки Мудрости Юпитера: семейные книги (6+) и мудрые советы для взрослых (12+)">
+  <meta property="og:description" content="Растущая коллекция иллюстрированных книг: народные сказки с картинами в резных рамках, добрые вопросы для беседы с ребёнком и практические жизненные и управленческие инструменты для взрослых.">
+  <meta property="og:url" content="https://skazki-yupiter.ru/">
+  <meta property="og:image" content="https://skazki-yupiter.ru/img/og-image.jpg">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="stylesheet" href="css/style.css?v=20261027v4">
+  <link rel="stylesheet" href="css/ai-consultant.css?v=20261027f">
+
+  <!-- Schema.org JSON-LD: Organization + BookSeries + Person + FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://skazki-yupiter.ru/#organization",
+        "name": "Авторская серия коллекционных книг «Сказки Мудрости Юпитера»",
+        "url": "https://skazki-yupiter.ru/",
+        "logo": "https://skazki-yupiter.ru/img/logo.svg",
+        "telephone": "+7-499-938-60-28",
+        "email": "info@skazki-yupiter.ru",
+        "sameAs": [
+          "https://t.me/iupiter_group"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://skazki-yupiter.ru/#author",
+        "name": "Зинаида Юпитер",
+        "honorificSuffix": "DBA",
+        "jobTitle": "Автор серии «Сказки Мудрости Юпитера», доктор делового администрирования (DBA)",
+        "image": "https://skazki-yupiter.ru/img/zinaida-portrait.jpg"
+      },
+      {
+        "@type": "BookSeries",
+        "@id": "https://skazki-yupiter.ru/#bookseries",
+        "name": "Сказки Мудрости Юпитера",
+        "alternateName": "Tales of Jupiter Wisdom",
+        "author": {
+          "@id": "https://skazki-yupiter.ru/#author"
+        },
+        "numberOfItems": 16,
+        "inLanguage": ["ru", "en", "zh-CN"],
+        "description": "Коллекционная серия иллюстрированных книг: народные сказки в авторском художественном оформлении с доброй беседой для детей (6+) и практическими советами и управленческими инструментами для взрослых (12+)."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://skazki-yupiter.ru/#faqpage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Чем отличаются два издания каждой книги: семейное (6+) и для взрослых (12+)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "В семейном издании (6+ «Для родителей и детей») даны полная певучая сказка с 5 картинами, вопросы для доверительной беседы с ребёнком, игра «Три дороги» и тёплые советы родителям. В издании для взрослых (12+) представлены динамичная версия сказки со всеми народными поговорками, практические советы, управленческие инструменты, разбор жизненных ситуаций и крылатые фразы для переговоров."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как устроен коллекционный печатный «Золотой Том»?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Печатный «Золотой Том» объединяет избранные сказки серии в переплёте коллекционного подарочного класса: тканевый корешок, глубокое рельефное 3D-тиснение золотом на обложке, резных рамках и буквицах, плотная тёплая бумага оттенка старинного пергамента и шёлковая закладка-ляссе."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <header>
-    <div class="lang-switch">
-      <a href="index.html" class="active">🇷🇺 Русская витрина (RU)</a>
-      <a href="en.html">🇬🇧 English Showcase (EN)</a>
-    </div>
-    <h1>✦ СКАЗКИ МУДРОСТИ ЮПИТЕРА • JUPITER WISDOM TALES ✦</h1>
-    <p>Авторская серия Зинаиды Юпитер, доктора делового администрирования (DBA)</p>
-    <p>16 сказок • 32 книги на русском (6+ и 12+) • 32 книги на английском для Amazon KDP (всего 64 книги PDF)</p>
-  </header>
-  <div class="container">
-    <div class="top-docs">
-      <h2>🏛 Стратегия, Реестр 16 сказок, Совет 18 экспертов и Пакет Amazon KDP</h2>
-      <div class="doc-links">
-        <a href="01_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B_%D0%B8_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%A0%D0%B5%D0%B5%D1%81%D1%82%D1%80_16_%D0%A1%D0%BA%D0%B0%D0%B7%D0%BE%D0%BA_%D0%A1%D0%B2%D0%B5%D1%80%D0%BA%D0%B0_RU_EN.md" target="_blank">📋 Реестр и сверка всех 16 сказок (RU + EN)</a>
-        <a href="01_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B_%D0%B8_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%98%D0%B4%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80_%D0%9F%D1%80%D0%BE%D0%BC%D0%BF%D1%82_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D0%B0_18_%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BE%D0%B2.md" target="_blank">📜 Идеальный Мастер-Промпт (18 экспертов)</a>
-        <a href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/%D0%9F%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9_%D0%9F%D0%B0%D0%BA%D0%B5%D1%82_%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8_Amazon_KDP_%D0%92%D1%81%D0%B5_16_%D0%9A%D0%BD%D0%B8%D0%B3.md" target="_blank">🌎 Полный Пакет Amazon KDP (Все 16 книг)</a>
-        <a href="01_%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F_%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B_%D0%B8_%D0%9A%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3/%D0%90%D1%83%D0%B4%D0%B8%D1%82_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D0%B0_18_%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BE%D0%B2_%D0%9C%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D0%9E%D0%BF%D1%8B%D1%82_%D0%B8_%D0%9F%D1%80%D0%B0%D0%B2%D0%BE.md" target="_blank">⚖️ Аудит Совета 18 экспертов и Право</a>
-        <a href="en.html">🇬🇧 Switch to English Showcase</a>
-        <a href="https://github.com/jupitergroop/skazki-mudrosti-yupiter" target="_blank">💻 Открыть весь репозиторий на GitHub</a>
+
+  <!-- Верхняя плашка издания -->
+  <div class="top-canon-bar">
+    <div class="container top-canon-bar__inner">
+      <div class="top-canon-bar__badges">
+        <span>❖ Собрание иллюстрированных книг для семейного вечера и мудрых решений</span>
+        <span>✦ Тиснение золотом и бумага оттенка старинного пергамента</span>
+        <span>🌍 На русском, английском и китайском языках</span>
+      </div>
+      <div>
+        Тёплая линия редакции: <a href="tel:+74999386028">+7 (499) 938-60-28</a>, <a href="mailto:info@skazki-yupiter.ru">info@skazki-yupiter.ru</a>
       </div>
     </div>
-    <div class="grid">
-      
-        <div class="card">
-          <div class="card-badge">Выпуск 01 • Issue 01</div>
-          <h3>«Журавль и цапля»</h3>
-          <div class="en-sub">The Crane and the Heron</div>
-          <p class="desc">Золотой мост диалога против качелей гордыни и обиды (Переговоры и BATNA)</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/01_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_1_%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BB%D1%8C_%D0%B8_%D0%A6%D0%B0%D0%BF%D0%BB%D1%8F_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/01%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_1_%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BB%D1%8C_%D0%B8_%D0%A6%D0%B0%D0%BF%D0%BB%D1%8F_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/01_EN_The_Crane_and_The_Heron_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/01B_EN_The_Crane_and_The_Heron_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book1_zhuravl_i_caplya_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book1_zhuravl_i_caplya_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book1_zhuravl_i_caplya_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book1_zhuravl_i_caplya_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book1_zhuravl_i_caplya_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 02 • Issue 02</div>
-          <h3>«Заяц и лиса (Ледяная избушка)»</h3>
-          <div class="en-sub">The Ice Hut and the Bark Cottage</div>
-          <p class="desc">Доброта с твёрдыми границами и защитой дома и базовых активов</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/02_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_2_%D0%97%D0%B0%D1%8F%D1%86_%D0%B8_%D0%9B%D0%B8%D1%81%D0%B0_%D0%9B%D0%B5%D0%B4%D1%8F%D0%BD%D0%B0%D1%8F_%D0%98%D0%B7%D0%B1%D1%83%D1%88%D0%BA%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/02%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_2_%D0%97%D0%B0%D1%8F%D1%86_%D0%B8_%D0%9B%D0%B8%D1%81%D0%B0_%D0%9B%D0%B5%D0%B4%D1%8F%D0%BD%D0%B0%D1%8F_%D0%98%D0%B7%D0%B1%D1%83%D1%88%D0%BA%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/02_EN_The_Ice_Hut_and_The_Bark_Cottage_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/02B_EN_The_Ice_Hut_and_The_Bark_Cottage_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book2_zayac_i_lisa_ledyanaya_izbushka_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book2_zayac_i_lisa_ledyanaya_izbushka_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book2_zayac_i_lisa_ledyanaya_izbushka_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book2_zayac_i_lisa_ledyanaya_izbushka_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book2_zayac_i_lisa_ledyanaya_izbushka_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 03 • Issue 03</div>
-          <h3>«Вершки и корешки»</h3>
-          <div class="en-sub">Tops and Bottoms</div>
-          <p class="desc">Знание сути предмета («ботаники дела») и честный уговор на берегу (SLA)</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/03_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_3_%D0%92%D0%B5%D1%80%D1%88%D0%BA%D0%B8_%D0%B8_%D0%9A%D0%BE%D1%80%D0%B5%D1%88%D0%BA%D0%B8_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/03%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_3_%D0%92%D0%B5%D1%80%D1%88%D0%BA%D0%B8_%D0%B8_%D0%9A%D0%BE%D1%80%D0%B5%D1%88%D0%BA%D0%B8_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/03_EN_Tops_and_Bottoms_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/03B_EN_Tops_and_Bottoms_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book3_vershki_i_koreshki_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book3_vershki_i_koreshki_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book3_vershki_i_koreshki_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book3_vershki_i_koreshki_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book3_vershki_i_koreshki_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 04 • Issue 04</div>
-          <h3>«Три поросёнка»</h3>
-          <div class="en-sub">The Three Little Pigs</div>
-          <p class="desc">Каменный фундамент мастерства и антихрупкость до прихода кризиса</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/04_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_4_%D0%A2%D1%80%D0%B8_%D0%9F%D0%BE%D1%80%D0%BE%D1%81%D0%B5%D0%BD%D0%BA%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/04%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_4_%D0%A2%D1%80%D0%B8_%D0%9F%D0%BE%D1%80%D0%BE%D1%81%D0%B5%D0%BD%D0%BA%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/04_EN_The_Three_Little_Pigs_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/04B_EN_The_Three_Little_Pigs_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book4_tri_porosenka_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book4_tri_porosenka_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book4_tri_porosenka_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book4_tri_porosenka_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book4_tri_porosenka_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 05 • Issue 05</div>
-          <h3>«Гусыня, несущая золотые яйца»</h3>
-          <div class="en-sub">The Goose That Laid the Golden Eggs</div>
-          <p class="desc">Баланс P/PC (Стивен Кови): бережное сохранение источника дохода и команды</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/05_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_5_%D0%93%D1%83%D1%81%D1%8B%D0%BD%D1%8F_%D0%9D%D0%B5%D1%81%D1%83%D1%89%D0%B0%D1%8F_%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%B5_%D0%AF%D0%B9%D1%86%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/05%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_5_%D0%93%D1%83%D1%81%D1%8B%D0%BD%D1%8F_%D0%9D%D0%B5%D1%81%D1%83%D1%89%D0%B0%D1%8F_%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D1%8B%D0%B5_%D0%AF%D0%B9%D1%86%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/05_EN_The_Goose_That_Laid_The_Golden_Eggs_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/05B_EN_The_Goose_That_Laid_The_Golden_Eggs_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book5_gusynya_zolotye_yayca_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book5_gusynya_zolotye_yayca_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book5_gusynya_zolotye_yayca_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book5_gusynya_zolotye_yayca_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book5_gusynya_zolotye_yayca_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 06 • Issue 06</div>
-          <h3>«Курочка за уточку (Мена)»</h3>
-          <div class="en-sub">The Great Market Trade</div>
-          <p class="desc">Защита базового капитала от эмоциональных обменов и безусловная ценность семьи</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/06_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_6_%D0%9A%D1%83%D1%80%D0%BE%D1%87%D0%BA%D0%B0_%D0%B7%D0%B0_%D0%A3%D1%82%D0%BE%D1%87%D0%BA%D1%83_%D0%9C%D0%B5%D0%BD%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/06%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_6_%D0%9A%D1%83%D1%80%D0%BE%D1%87%D0%BA%D0%B0_%D0%B7%D0%B0_%D0%A3%D1%82%D0%BE%D1%87%D0%BA%D1%83_%D0%9C%D0%B5%D0%BD%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/06_EN_The_Great_Market_Trade_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/06B_EN_The_Great_Market_Trade_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book6_kurochka_za_utochku_mena_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book6_kurochka_za_utochku_mena_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book6_kurochka_za_utochku_mena_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book6_kurochka_za_utochku_mena_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book6_kurochka_za_utochku_mena_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 07 • Issue 07</div>
-          <h3>«Колобок»</h3>
-          <div class="en-sub">Kolobok (The Rolling Bun)</div>
-          <p class="desc">Преодоление ошибки выжившего и иммунитет к лести на переговорах (Кемп)</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/07_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_7_%D0%9A%D0%BE%D0%BB%D0%BE%D0%B1%D0%BE%D0%BA_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/07%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_7_%D0%9A%D0%BE%D0%BB%D0%BE%D0%B1%D0%BE%D0%BA_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/07_EN_Kolobok_The_Rolling_Bun_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/07B_EN_Kolobok_The_Rolling_Bun_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book7_kolobok_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book7_kolobok_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book7_kolobok_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book7_kolobok_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book7_kolobok_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 08 • Issue 08</div>
-          <h3>«Иван-царевич и Серый Волк»</h3>
-          <div class="en-sub">Prince Ivan and the Grey Wolf</div>
-          <p class="desc">Дисциплина красных линий наставника и юридического комплаенса</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/08_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_8_%D0%98%D0%B2%D0%B0%D0%BD_%D0%A6%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87_%D0%B8_%D0%A1%D0%B5%D1%80%D1%8B%D0%B9_%D0%92%D0%BE%D0%BB%D0%BA_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/08%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_8_%D0%98%D0%B2%D0%B0%D0%BD_%D0%A6%D0%B0%D1%80%D0%B5%D0%B2%D0%B8%D1%87_%D0%B8_%D0%A1%D0%B5%D1%80%D1%8B%D0%B9_%D0%92%D0%BE%D0%BB%D0%BA_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/08_EN_Prince_Ivan_and_The_Grey_Wolf_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/08B_EN_Prince_Ivan_and_The_Grey_Wolf_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book8_ivan_carevich_i_seryy_volk_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book8_ivan_carevich_i_seryy_volk_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book8_ivan_carevich_i_seryy_volk_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book8_ivan_carevich_i_seryy_volk_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book8_ivan_carevich_i_seryy_volk_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 09 • Issue 09</div>
-          <h3>«Гуси-лебеди»</h3>
-          <div class="en-sub">The Magic Swan Geese</div>
-          <p class="desc">Личная ответственность в кризисе и уважение к партнёрам экосистемы</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/09_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_9_%D0%93%D1%83%D1%81%D0%B8_%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B8_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/09%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_9_%D0%93%D1%83%D1%81%D0%B8_%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B8_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/09_EN_The_Magic_Swan_Geese_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/09B_EN_The_Magic_Swan_Geese_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book9_gusi_lebedi_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book9_gusi_lebedi_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book9_gusi_lebedi_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book9_gusi_lebedi_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book9_gusi_lebedi_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 10 • Issue 10</div>
-          <h3>«Каша из топора»</h3>
-          <div class="en-sub">Axe Porridge</div>
-          <p class="desc">Каталитический прототип (MVP) и пошаговое вовлечение ресурсов партнёра</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/10_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_10_%D0%9A%D0%B0%D1%88%D0%B0_%D0%B8%D0%B7_%D0%A2%D0%BE%D0%BF%D0%BE%D1%80%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/10%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_10_%D0%9A%D0%B0%D1%88%D0%B0_%D0%B8%D0%B7_%D0%A2%D0%BE%D0%BF%D0%BE%D1%80%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/10_EN_Axe_Porridge_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/10B_EN_Axe_Porridge_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book10_kasha_iz_topora_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book10_kasha_iz_topora_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book10_kasha_iz_topora_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book10_kasha_iz_topora_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book10_kasha_iz_topora_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 11 • Issue 11</div>
-          <h3>«Лиса и Журавль»</h3>
-          <div class="en-sub">The Fox and the Crane</div>
-          <p class="desc">Истинная клиентоориентированность: подача ценности под «клюв» клиента</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/11_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_11_%D0%9B%D0%B8%D1%81%D0%B0_%D0%B8_%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BB%D1%8C_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/11%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_11_%D0%9B%D0%B8%D1%81%D0%B0_%D0%B8_%D0%96%D1%83%D1%80%D0%B0%D0%B2%D0%BB%D1%8C_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/11_EN_The_Fox_and_The_Crane_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/11B_EN_The_Fox_and_The_Crane_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book11_lisa_i_zhuravl_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book11_lisa_i_zhuravl_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book11_lisa_i_zhuravl_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book11_lisa_i_zhuravl_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book11_lisa_i_zhuravl_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 12 • Issue 12</div>
-          <h3>«Теремок»</h3>
-          <div class="en-sub">Teremok (The Woodland House)</div>
-          <p class="desc">Комплементарность ролей (Белбин) и перестройка архитектуры при масштабировании</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/12_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_12_%D0%A2%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BA_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/12%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_12_%D0%A2%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BA_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/12_EN_Teremok_The_Woodland_House_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/12B_EN_Teremok_The_Woodland_House_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book12_teremok_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book12_teremok_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book12_teremok_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book12_teremok_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book12_teremok_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 13 • Issue 13</div>
-          <h3>«Сказка о рыбаке и рыбке»</h3>
-          <div class="en-sub">The Fisherman and the Golden Fish</div>
-          <p class="desc">Чувство меры, благодарность и защита от неконтролируемого раздувания запросов</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/13_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_13_%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE_%D0%A0%D1%8B%D0%B1%D0%B0%D0%BA%D0%B5_%D0%B8_%D0%A0%D1%8B%D0%B1%D0%BA%D0%B5_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/13%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_13_%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%BE_%D0%A0%D1%8B%D0%B1%D0%B0%D0%BA%D0%B5_%D0%B8_%D0%A0%D1%8B%D0%B1%D0%BA%D0%B5_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/13_EN_The_Fisherman_and_The_Golden_Fish_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/13B_EN_The_Fisherman_and_The_Golden_Fish_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book13_skazka_o_rybake_i_rybke_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book13_skazka_o_rybake_i_rybke_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book13_skazka_o_rybake_i_rybke_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book13_skazka_o_rybake_i_rybke_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book13_skazka_o_rybake_i_rybke_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 14 • Issue 14</div>
-          <h3>«Новое платье короля»</h3>
-          <div class="en-sub">The Emperor's New Clothes</div>
-          <p class="desc">Психологическая безопасность говорить правду (Эдмондсон) против парадокса Абилина</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/14_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_14_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5_%D0%9F%D0%BB%D0%B0%D1%82%D1%8C%D0%B5_%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/14%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_14_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5_%D0%9F%D0%BB%D0%B0%D1%82%D1%8C%D0%B5_%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/14_EN_The_Emperors_New_Clothes_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/14B_EN_The_Emperors_New_Clothes_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book14_novoe_platye_korolya_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book14_novoe_platye_korolya_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book14_novoe_platye_korolya_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book14_novoe_platye_korolya_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book14_novoe_platye_korolya_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 15 • Issue 15</div>
-          <h3>«Два жадных медвежонка»</h3>
-          <div class="en-sub">Two Greedy Bear Cubs</div>
-          <p class="desc">Дизайн честных механизмов («Один режет — другой выбирает») против потери бизнеса в спорах</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/15_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_15_%D0%94%D0%B2%D0%B0_%D0%96%D0%B0%D0%B4%D0%BD%D1%8B%D1%85_%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D0%BE%D0%BD%D0%BA%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/15%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_15_%D0%94%D0%B2%D0%B0_%D0%96%D0%B0%D0%B4%D0%BD%D1%8B%D1%85_%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D0%BE%D0%BD%D0%BA%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/15_EN_Two_Greedy_Bear_Cubs_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/15B_EN_Two_Greedy_Bear_Cubs_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book15_dva_zhadnyh_medvezhonka_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book15_dva_zhadnyh_medvezhonka_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book15_dva_zhadnyh_medvezhonka_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book15_dva_zhadnyh_medvezhonka_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book15_dva_zhadnyh_medvezhonka_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-badge">Выпуск 16 • Issue 16</div>
-          <h3>«Курочка Ряба»</h3>
-          <div class="en-sub">The Speckled Hen</div>
-          <p class="desc">Антихрупкость (Талеб) и быстрый переход от неликвидного «золотого яйца» к кормящему «простому яйцу»</p>
-          <div class="btn-group">
-            <a class="btn btn-ru-fam" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/16_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_16_%D0%9A%D1%83%D1%80%D0%BE%D1%87%D0%BA%D0%B0_%D0%A0%D1%8F%D0%B1%D0%B0_%D0%94%D0%9B%D0%AF_%D0%A0%D0%9E%D0%94%D0%98%D0%A2%D0%95%D0%9B%D0%95%D0%99_%D0%98_%D0%94%D0%95%D0%A2%D0%95%D0%99_RU.pdf" target="_blank">🇷🇺 Семейная (6+) PDF</a>
-            <a class="btn btn-ru-mgmt" href="02_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_%D0%9D%D0%B0_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC/16%D0%91_%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_16_%D0%9A%D1%83%D1%80%D0%BE%D1%87%D0%BA%D0%B0_%D0%A0%D1%8F%D0%B1%D0%B0_%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%99_%D0%A0%D0%90%D0%97%D0%91%D0%9E%D0%A0_RU.pdf" target="_blank">🇷🇺 Управленческая (12+) PDF</a>
-            <a class="btn btn-en-fam" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/16_EN_The_Speckled_Hen_Family_Edition_6plus.pdf" target="_blank">🇬🇧 EN Family (6+) PDF</a>
-            <a class="btn btn-en-mgmt" href="03_%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D1%8B_%D0%9A%D0%BD%D0%B8%D0%B3_EN_%D0%B8_%D0%91%D0%A0%D0%98%D0%9A%D0%A1/16B_EN_The_Speckled_Hen_Executive_Edition_12plus.pdf" target="_blank">🇬🇧 EN Executive (12+) PDF</a>
-          </div>
-          <div class="meta-links">
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book16_kurochka_ryaba_story_unit.yaml" target="_blank">YAML</a> •
-            <a href="04_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86_%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B9/book16_kurochka_ryaba_story_unit.json" target="_blank">JSON</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book16_kurochka_ryaba_interactive_case.md" target="_blank">Кейс</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book16_kurochka_ryaba_course_module.md" target="_blank">Модуль курса</a> •
-            <a href="05_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80%D1%8B_%D0%B8_%D0%9A%D1%83%D1%80%D1%81%D1%8B/book16_kurochka_ryaba_ai_mentor_config.json" target="_blank">ИИ-наставник</a>
-          </div>
-        </div>
-        
-    </div>
   </div>
-  <footer>
-    © Зинаида Юпитер (Zinaida Jupiter, DBA), 2026 • Издательский дом «Юпитер» • Все права защищены (Бернская конвенция • Совет 18 экспертов)
+
+  <!-- Липкая шапка -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="brand-logo" aria-label="Сказки Мудрости Юпитера: на главную">
+        <span class="brand-logo__emblem" aria-hidden="true">♃</span>
+        <span>
+          <span class="brand-logo__title">СКАЗКИ МУДРОСТИ ЮПИТЕРА</span>
+          <span class="brand-logo__sub">Коллекционные книги для семьи (6+) и зрелых решений (12+)</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#philosophy">О серии</a>
+        <a href="#two-wings">Два издания (6+ и 12+)</a>
+        <a href="#catalog">Каталог сказок</a>
+        <a href="#interactive-matrix">Читальный зал</a>
+        <a href="#golden-tome">Золотой Том</a>
+        <a href="#author">Слово автора</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+74999386028" class="header-phone">+7 (499) 938-60-28</a>
+        <button type="button" class="btn btn--primary btn--sm" data-open-order="Собрание опубликованных книг серии (6+ и 12+)">Выбрать книги / Подарок</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ПЕРВЫЙ ЭКРАН (HERO) -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div>
+            <div class="eyebrow-badge">❖ АВТОРСКАЯ СЕРИЯ ИЛЛЮСТРИРОВАННЫХ КНИГ «СКАЗКИ МУДРОСТИ ЮПИТЕРА» ❖</div>
+            <h1 class="hero__title">
+              Мудрые народные сказки с доброй беседой для детей <span>(6+)</span> и жизненными и управленческими советами для взрослых <span>(12+)</span>
+            </h1>
+            <p class="hero__lead">
+              Иллюстрированные книги, которые собирают семью вечером под тёплым светом лампы. Ребёнок за 15 минут чтения учится дружить, слышать другого и отличать добрый поступок от уловки, а взрослый находит в знакомом с детства сюжете точные жизненные подсказки и практические управленческие инструменты.
+            </p>
+
+            <div class="hero__author-pill">
+              <div>
+                <strong>Автор серии: Зинаида Юпитер, доктор делового администрирования (DBA)</strong>
+                <span>Многовековая мудрость людей, бережно собранная для семьи, воспитания характера и зрелых решений</span>
+              </div>
+            </div>
+
+            <div class="hero__cta-row">
+              <a href="#catalog" class="btn btn--primary">📖 Выбрать книгу в каталоге</a>
+              <a href="#interactive-matrix" class="btn btn--gold">★ Полистать сказки в читальном зале</a>
+              <a href="pdf/tom1_sbornik_3_skazki_ru.pdf" target="_blank" rel="noopener" class="btn btn--outline">📥 Скачать подарочный сборник (PDF)</a>
+            </div>
+          </div>
+
+          <!-- Правая колонка: Витрина 4 разных обложек из 16 книг серии -->
+          <div class="hero-showcase" aria-label="Примеры обложек из 16 книг серии">
+            <div class="hero-showcase__top">
+              <span>✦ 16 иллюстрированных сказок (32 издания: 6+ и 12+)</span>
+              <span>Нажмите на любую обложку для чтения</span>
+            </div>
+            <div class="hero-showcase__pair">
+              <div class="showcase-book-card" data-open-reader="1" data-initial-tab="kids">
+                <span class="showcase-book-card__tag showcase-book-card__tag--fam">Книга I • 6+ Семья</span>
+                <img src="img/covers/b1_fam.jpg?v=20261027v4" alt="Книга I: Журавль и цапля (6+)" width="320" height="480" fetchpriority="high">
+                <div class="showcase-book-card__caption"><strong>Книга I: «Журавль и цапля»</strong> — Золотой мост диалога и игра «Три дороги»</div>
+              </div>
+              <div class="showcase-book-card" data-open-reader="4" data-initial-tab="matrix">
+                <span class="showcase-book-card__tag showcase-book-card__tag--mgmt">Книга IV • 12+ Взрослым</span>
+                <img src="img/covers/b4_mgmt.jpg?v=20261027v4" alt="Книга IV: Три поросёнка (12+)" width="320" height="480" fetchpriority="high">
+                <div class="showcase-book-card__caption"><strong>Книга IV: «Три поросёнка»</strong> — Каменный фундамент и антихрупкость до кризиса</div>
+              </div>
+              <div class="showcase-book-card" data-open-reader="2" data-initial-tab="kids">
+                <span class="showcase-book-card__tag showcase-book-card__tag--fam">Книга II • 6+ Семья</span>
+                <img src="img/covers/b2_fam.jpg?v=20261027v4" alt="Книга II: Заяц и лиса (6+)" width="320" height="480">
+                <div class="showcase-book-card__caption"><strong>Книга II: «Заяц и лиса»</strong> — Доброта, границы дома и верный союзник</div>
+              </div>
+              <div class="showcase-book-card" data-open-reader="8" data-initial-tab="matrix">
+                <span class="showcase-book-card__tag showcase-book-card__tag--mgmt">Книга VIII • 12+ Взрослым</span>
+                <img src="img/covers/b8_mgmt.jpg?v=20261027v4" alt="Книга VIII: Иван-царевич и Серый Волк (12+)" width="320" height="480">
+                <div class="showcase-book-card__caption"><strong>Книга VIII: «Иван-царевич и Серый Волк»</strong> — Доверие наставнику и дисциплина</div>
+              </div>
+            </div>
+            <div class="hero-showcase__footer">
+              <span>Все 16 книг с уникальными обложками в каталоге ниже</span>
+              <a href="#catalog" class="btn btn--gold btn--sm">Смотреть все 16 обложек ↓</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Полоса 4 смысловых опор -->
+        <div class="metrics-strip">
+          <div class="metric-card">
+            <div class="metric-card__num">Растущая коллекция</div>
+            <div class="metric-card__label">В каталоге уже 16 мудрых сказок, и со временем серия регулярно пополняется новыми выпусками</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-card__num">Два издания: 6+ и 12+</div>
+            <div class="metric-card__label">Детская версия для тёплого семейного чтения и взрослая версия с жизненными и управленческими советами</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-card__num">Стратегия и навыки</div>
+            <div class="metric-card__label">Навыки помогают уверенно идти по пути, а стратегия отвечает на главный вопрос: <strong>куда именно идти</strong></div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-card__num">Золото и пергамент</div>
+            <div class="metric-card__label">Подарочный «Золотой Том»: тканевый корешок, объёмное тиснение золотом, плотная бумага и шёлковое ляссе</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 1: СМЫСЛЫ, СТРАТЕГИЯ, ЭМПАТИЯ И КРАСОТА -->
+    <section class="section" id="philosophy">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__super">✦ СМЫСЛЫ, СТРАТЕГИЯ, ЭМПАТИЯ И КРАСОТА ✦</div>
+          <h2 class="section-header__title">Что даёт ребёнку и взрослому многовековая мудрость сказки</h2>
+          <p class="section-header__desc">
+            Формирование навыков помогает человеку уверенно идти по пути, а стратегия отвечает на главный вопрос: <strong>куда именно идти</strong>. Этим мы и занимаемся через сказки.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <span class="pillar-card__num">I</span>
+            <h3>Живая эмпатия и чуткость</h3>
+            <p>
+              Когда искусственный интеллект становится удобным помощником в повседневной рутине, для человека ещё ценнее становится то, на что способно только живое сердце: умение сопереживать, дружить, держать слово и находить достойный выход из спора. Эти качества закладываются с детства через добрую сказку и тёплый разговор с родителями.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-card__num">II</span>
+            <h3>Мудрые советы и управленческие инструменты</h3>
+            <p>
+              За простым сказочным сюжетом скрыты вековые уроки человеческих отношений. Для детей это мягкая игра-выбор и вопросы по душам без назиданий, а для взрослых даны ясные жизненные советы, переговорные приёмы и практические инструменты выбора там, где они действительно нужны.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <span class="pillar-card__num">III</span>
+            <h3>Красота родного слова и связь поколений</h3>
+            <p>
+              В каждой книге звучит чистая, певучая речь со старинными поговорками и присловьями, а иллюстрации в резных рамках пробуждают чувство прекрасного с первых страниц. Такую книгу с радостью открывают бабушка с внуками, родители с ребёнком перед сном и руководитель, ценящий глубокую мысль.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 2: ДВА КРЫЛА КАЖДОЙ КНИГИ (6+ И 12+) -->
+    <section class="section section--alt" id="two-wings">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__super">✦ ДВА ИЗДАНИЯ КАЖДОЙ СКАЗКИ ✦</div>
+          <h2 class="section-header__title">Для тёплого семейного вечера (6+) и для взрослого взгляда на дело и жизнь (12+)</h2>
+          <p class="section-header__desc">
+            Сначала читатель погружается в художественную сказку с иллюстрациями, а затем переходит к бережной беседе с ребёнком или к взрослому практическому разбору.
+          </p>
+        </div>
+
+        <div class="editions-grid">
+          <!-- Ветка А: 6+ -->
+          <div class="edition-panel">
+            <span class="edition-badge edition-badge--6">Семейное чтение (6+)</span>
+            <h3>Издание «Для родителей и детей»</h3>
+            <p style="color:var(--ink-secondary);margin:0;">
+              Тёплая иллюстрированная книга, ради которой ребёнок сам откладывает гаджеты и просит почитать вместе перед сном.
+            </p>
+            <ul class="edition-steps">
+              <li><strong>Полная певучая сказка и 5 картин:</strong> живой образный язык, иллюстрации в резных рамках, расписные буквицы и мудрая мысль под каждой картиной.</li>
+              <li><strong>Разговор по душам с ребёнком:</strong> 3 чутких вопроса для обсуждения, добрые слова дружбы, игра-выбор «Три дороги» и страница для детского рисунка.</li>
+              <li><strong>Советы любящим родителям:</strong> спокойные жизненные подсказки о семейном ладе, доверии и воспитании характера без нотаций.</li>
+            </ul>
+          </div>
+
+          <!-- Ветка Б: 12+ -->
+          <div class="edition-panel edition-panel--exec">
+            <span class="edition-badge edition-badge--12">Родителям и руководителям (12+)</span>
+            <h3>Издание «Мудрость в делах и переговорах»</h3>
+            <p style="color:var(--ink-secondary);margin:0;">
+              Ясный взгляд на человеческие характеры, договорённости, партнёрство и поиск сильных решений.
+            </p>
+            <ul class="edition-steps">
+              <li><strong>Сжатая динамичная сказка:</strong> весь сюжет и все народные поговорки за полторы минуты чтения с иллюстрациями.</li>
+              <li><strong>Жизненные советы и разбор характеров:</strong> узнаваемые типы поведения в семье, команде и сделках, главные ловушки обиды и потери доверия.</li>
+              <li><strong>Управленческие инструменты и крылатые фразы:</strong> практические шаги, наглядные схемы решений и точные слова, помогающие сохранить уважение и договориться по сути.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 3: ИНТЕРАКТИВНЫЙ КАТАЛОГ КНИГ СЕРИИ (РАСТУЩАЯ КОЛЛЕКЦИЯ) -->
+    <section class="section" id="catalog">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__super">✦ РАСТУЩАЯ КОЛЛЕКЦИЯ СЕРИИ ✦</div>
+          <h2 class="section-header__title">Каталог книг «Сказки Мудрости Юпитера»</h2>
+          <p class="section-header__desc">
+            Первые 16 выпусков уже доступны ниже в двух версиях (<strong>6+ для семьи</strong> и <strong>12+ со взрослым разбором</strong>), а со временем коллекция пополняется новыми сказками.
+          </p>
+        </div>
+
+        <div class="catalog-controls">
+          <div class="mode-switch" role="group" aria-label="Выбор версии обложек">
+            <button type="button" class="mode-switch__btn is-active" data-catalog-mode="fam">Издание «Для родителей и детей (6+)»</button>
+            <button type="button" class="mode-switch__btn" data-catalog-mode="mgmt">Издание «Советы и инструменты (12+)»</button>
+          </div>
+          <div class="catalog-search">
+            <input type="search" id="catalog-search-input" class="ym-disable-keys" placeholder="Поиск по названию сказки или смыслу (например: Журавль, Теремок, дружба, договор)..." aria-label="Поиск по каталогу сказок">
+          </div>
+        </div>
+
+        <div class="books-grid" id="books-grid">
+          <article class="book-card" data-book-num="1">
+            <div class="book-card__cover-wrap" data-open-reader="1" title="Открыть читальный зал: Книга I «Журавль и цапля»">
+              <span class="book-card__issue-pill">Книга I</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b1_fam.jpg?v=20261027v4" alt="Обложка книги «Журавль и цапля», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Журавль и цапля»</h3>
+              <div class="book-card__en">The Crane and the Heron</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="1">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book1_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book1_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="2">
+            <div class="book-card__cover-wrap" data-open-reader="2" title="Открыть читальный зал: Книга II «Заяц и лиса (Ледяная избушка)»">
+              <span class="book-card__issue-pill">Книга II</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b2_fam.jpg?v=20261027v4" alt="Обложка книги «Заяц и лиса (Ледяная избушка)», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Заяц и лиса (Ледяная избушка)»</h3>
+              <div class="book-card__en">The Fox and the Hare (The Bark Hut and the Ice Hut)</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="2">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book2_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book2_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="3">
+            <div class="book-card__cover-wrap" data-open-reader="3" title="Открыть читальный зал: Книга III «Вершки и корешки»">
+              <span class="book-card__issue-pill">Книга III</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b3_fam.jpg?v=20261027v4" alt="Обложка книги «Вершки и корешки», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Вершки и корешки»</h3>
+              <div class="book-card__en">Tops and Roots</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="3">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book3_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book3_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="4">
+            <div class="book-card__cover-wrap" data-open-reader="4" title="Открыть читальный зал: Книга IV «Три поросёнка»">
+              <span class="book-card__issue-pill">Книга IV</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b4_fam.jpg?v=20261027v4" alt="Обложка книги «Три поросёнка», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Три поросёнка»</h3>
+              <div class="book-card__en">The Three Little Pigs</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="4">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book4_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book4_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="5">
+            <div class="book-card__cover-wrap" data-open-reader="5" title="Открыть читальный зал: Книга V «Гусыня, несущая золотые яйца»">
+              <span class="book-card__issue-pill">Книга V</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b5_fam.jpg?v=20261027v4" alt="Обложка книги «Гусыня, несущая золотые яйца», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Гусыня, несущая золотые яйца»</h3>
+              <div class="book-card__en">The Goose That Laid the Golden Eggs</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="5">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book5_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book5_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="6">
+            <div class="book-card__cover-wrap" data-open-reader="6" title="Открыть читальный зал: Книга VI «Курочка за уточку (Мена)»">
+              <span class="book-card__issue-pill">Книга VI</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b6_fam.jpg?v=20261027v4" alt="Обложка книги «Курочка за уточку (Мена)», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Курочка за уточку (Мена)»</h3>
+              <div class="book-card__en">The Hen for a Duck (The Great Barter)</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="6">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book6_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book6_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="7">
+            <div class="book-card__cover-wrap" data-open-reader="7" title="Открыть читальный зал: Книга VII «Колобок»">
+              <span class="book-card__issue-pill">Книга VII</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b7_fam.jpg?v=20261027v4" alt="Обложка книги «Колобок», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Колобок»</h3>
+              <div class="book-card__en">Kolobok (The Little Round Bun)</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="7">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book7_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book7_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="8">
+            <div class="book-card__cover-wrap" data-open-reader="8" title="Открыть читальный зал: Книга VIII «Иван-царевич и Серый Волк»">
+              <span class="book-card__issue-pill">Книга VIII</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b8_fam.jpg?v=20261027v4" alt="Обложка книги «Иван-царевич и Серый Волк», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Иван-царевич и Серый Волк»</h3>
+              <div class="book-card__en">Tsarevich Ivan, the Firebird, and the Grey Wolf</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="8">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book8_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book8_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="9">
+            <div class="book-card__cover-wrap" data-open-reader="9" title="Открыть читальный зал: Книга IX «Гуси-лебеди»">
+              <span class="book-card__issue-pill">Книга IX</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b9_fam.jpg?v=20261027v4" alt="Обложка книги «Гуси-лебеди», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Гуси-лебеди»</h3>
+              <div class="book-card__en">The Magic Swan Geese</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="9">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book9_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book9_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="10">
+            <div class="book-card__cover-wrap" data-open-reader="10" title="Открыть читальный зал: Книга X «Каша из топора»">
+              <span class="book-card__issue-pill">Книга X</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b10_fam.jpg?v=20261027v4" alt="Обложка книги «Каша из топора», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Каша из топора»</h3>
+              <div class="book-card__en">Porridge from an Axe</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="10">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book10_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book10_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="11">
+            <div class="book-card__cover-wrap" data-open-reader="11" title="Открыть читальный зал: Книга XI «Лиса и Журавль»">
+              <span class="book-card__issue-pill">Книга XI</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b11_fam.jpg?v=20261027v4" alt="Обложка книги «Лиса и Журавль», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Лиса и Журавль»</h3>
+              <div class="book-card__en">The Fox and the Crane</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="11">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book11_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book11_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="12">
+            <div class="book-card__cover-wrap" data-open-reader="12" title="Открыть читальный зал: Книга XII «Теремок»">
+              <span class="book-card__issue-pill">Книга XII</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b12_fam.jpg?v=20261027v4" alt="Обложка книги «Теремок», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Теремок»</h3>
+              <div class="book-card__en">Teremok (The Little Woodland Hall)</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="12">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book12_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book12_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="13">
+            <div class="book-card__cover-wrap" data-open-reader="13" title="Открыть читальный зал: Книга XIII «Сказка о рыбаке и рыбке»">
+              <span class="book-card__issue-pill">Книга XIII</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b13_fam.jpg?v=20261027v4" alt="Обложка книги «Сказка о рыбаке и рыбке», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Сказка о рыбаке и рыбке»</h3>
+              <div class="book-card__en">The Tale of the Fisherman and the Golden Fish</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="13">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book13_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book13_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="14">
+            <div class="book-card__cover-wrap" data-open-reader="14" title="Открыть читальный зал: Книга XIV «Новое платье короля»">
+              <span class="book-card__issue-pill">Книга XIV</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b14_fam.jpg?v=20261027v4" alt="Обложка книги «Новое платье короля», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Новое платье короля»</h3>
+              <div class="book-card__en">The Emperor's New Clothes</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="14">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book14_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book14_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="15">
+            <div class="book-card__cover-wrap" data-open-reader="15" title="Открыть читальный зал: Книга XV «Два жадных медвежонка»">
+              <span class="book-card__issue-pill">Книга XV</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b15_fam.jpg?v=20261027v4" alt="Обложка книги «Два жадных медвежонка», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Два жадных медвежонка»</h3>
+              <div class="book-card__en">Two Greedy Little Bears</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="15">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book15_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book15_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="book-card" data-book-num="16">
+            <div class="book-card__cover-wrap" data-open-reader="16" title="Открыть читальный зал: Книга XVI «Курочка Ряба»">
+              <span class="book-card__issue-pill">Книга XVI</span>
+              <span class="book-card__age-pill">6+ (Семья)</span>
+              <img src="img/covers/b16_fam.jpg?v=20261027v4" alt="Обложка книги «Курочка Ряба», автор Зинаида Юпитер, DBA" width="360" height="540" loading="lazy">
+            </div>
+            <div class="book-card__body">
+              <h3 class="book-card__title">«Курочка Ряба»</h3>
+              <div class="book-card__en">The Speckled Hen</div>
+              <div class="book-card__key"><strong>Ключ для детей и семьи (6+):</strong><br></div>
+              <div class="book-card__actions">
+                <button type="button" class="btn btn--primary btn--sm" data-open-reader="16">Открыть книгу в читальном зале</button>
+                <div class="book-card__pdf-links">
+                  <a href="pdf/book1_family_ru.pdf" target="_blank" rel="noopener">PDF 6+ (Семья)</a>
+                  <a href="pdf/book1_mgmt_ru.pdf" target="_blank" rel="noopener">PDF 12+ (Взрослым)</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 4: ИНТЕРАКТИВНЫЙ ЧИТАЛЬНЫЙ ЗАЛ -->
+    <section class="section section--alt" id="interactive-matrix">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__super">✦ ИНТЕРАКТИВНЫЙ ЧИТАЛЬНЫЙ ЗАЛ ✦</div>
+          <h2 class="section-header__title">Полистайте любую сказку серии онлайн</h2>
+          <p class="section-header__desc">
+            Выберите книгу ниже, чтобы прочитать сцены сказки с иллюстрациями, посмотреть вопросы и игру для ребёнка или познакомиться с практическими советами для взрослых.
+          </p>
+        </div>
+
+        <div class="interactive-workbench">
+          <div style="font-size:12.5px;font-weight:700;color:var(--cinnabar);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">
+            Выберите сказку из каталога:
+          </div>
+          <div class="workbench-book-pills" id="workbench-pills"></div>
+          <div id="workbench-content"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 5: КОЛЛЕКЦИОННЫЙ ЗОЛОТОЙ ТОМ (КРАСОТА И ТАКТИЛЬНОСТЬ) -->
+    <section class="section section--dark" id="golden-tome">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__super">✦ КРАСОТА, КОТОРУЮ ХОЧЕТСЯ ДЕРЖАТЬ В РУКАХ ✦</div>
+          <h2 class="section-header__title">Коллекционный «Золотой Том» и художественный мир серии</h2>
+          <p class="section-header__desc">
+            Книга, созданная как тёплая семейная реликвия и незабываемый подарок близкому человеку или уважаемому партнёру.
+          </p>
+        </div>
+
+        <div class="editions-grid" style="margin-bottom:36px;">
+          <div style="background:rgba(255,255,255,0.06);border:2px solid var(--gold-border);border-radius:var(--radius-lg);padding:28px;">
+            <div style="font-size:12px;font-weight:700;color:#F3E5AB;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:8px;">✦ Подарочный фолиант серии</div>
+            <h3 style="font-family:var(--font-serif);font-size:24px;color:#FFFDF9;margin:0 0 12px;">Живое тепло переплёта, золота и пергамента</h3>
+            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;font-size:14.5px;color:#E6D8B8;">
+              <li>✦ <strong>Благородный тканевый корешок и полное раскрытие:</strong> прошитый нитями книжный блок мягко раскрывается на столе или на коленях, чтобы рассматривать картины вдвоём с ребёнком.</li>
+              <li>✦ <strong>Объёмное тиснение золотом (конгрев):</strong> кончики пальцев ощущают тонкий золотой рельеф на обложке, резных орнаментальных рамках и расписных буквицах, которые мягко мерцают при вечернем свете.</li>
+              <li>✦ <strong>Плотная бумага оттенка старинного пергамента:</strong> тёплый кремовый тон страниц не утомляет глаза перед сном, а шёлковая закладка-ляссе бережно хранит место вашей беседы.</li>
+              <li>✦ <strong>Большой семейный и кабинетный том:</strong> объединяет избранные сказки серии в фундаментальную книгу, которая передаётся в семье из поколения в поколение.</li>
+            </ul>
+          </div>
+
+          <div style="background:rgba(255,255,255,0.06);border:2px solid var(--gold-border);border-radius:var(--radius-lg);padding:28px;">
+            <div style="font-size:12px;font-weight:700;color:#F3E5AB;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:8px;">✦ Живой голос и диалог культур</div>
+            <h3 style="font-family:var(--font-serif);font-size:24px;color:#FFFDF9;margin:0 0 12px;">Ролевые аудиоспектакли и издания на трёх языках</h3>
+            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;font-size:14.5px;color:#E6D8B8;">
+              <li>✦ <strong>Тёплый аудиоспектакль по ролям:</strong> живое художественное чтение сказки голосами героев и душевный разговорный разбор главной мысли для тихого вечера дома или семейной поездки.</li>
+              <li>✦ <strong>Бережный художественный перевод:</strong> сохранение мелодики речи, родных пословиц и живых образов в изданиях на русском, английском и китайском языках.</li>
+              <li>✦ <strong>Мост дружбы и понимания:</strong> каждая книга показывает, как вековая русская мудрость созвучна лучшим притчам Востока и Запада.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 style="font-family:var(--font-serif);font-size:22px;color:#F3E5AB;text-align:center;margin:0 0 8px;">Четыре художественные традиции в иллюстрациях серии</h3>
+        <div class="presets-grid">
+          <div class="preset-card">
+            <h4>1. Классический русский терем</h4>
+            <p>Тёплая охра, киноварь, червонное золото, резные древнерусские наличники и расписные буквицы («Журавль и цапля», «Ледяная избушка», «Теремок»).</p>
+          </div>
+          <div class="preset-card">
+            <h4>2. Старинная европейская миниатюра</h4>
+            <p>Тонкая акварель и книжная гравюра с уютным светом камина и живой мимикой героев («Три поросёнка», «Новое платье короля»).</p>
+          </div>
+          <div class="preset-card">
+            <h4>3. Античная гармония притчи</h4>
+            <p>Солнечный мрамор, оливковая бронза и золотой меандр для вечных сюжетов о мере и мудрости («Гусыня, несущая золотые яйца»).</p>
+          </div>
+          <div class="preset-card">
+            <h4>4. Восточный шёлковый свиток</h4>
+            <p>Поэзия туши и шёлка, печати киноварью и глубокая созерцательность для международных изданий.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 6: СЛОВО АВТОРА СЕРИИ (ДУШЕВНО, БЕЗ ПОВТОРОВ) -->
+    <section class="section section--alt" id="author">
+      <div class="container">
+        <div class="author-block">
+          <div class="author-portrait-frame">
+            <img src="img/zinaida-portrait.jpg" alt="Зинаида Юпитер, автор серии «Сказки Мудрости Юпитера», доктор делового администрирования (DBA)" width="320" height="400" loading="lazy">
+          </div>
+          <div>
+            <div class="eyebrow-badge">❖ СЛОВО АВТОРА СЕРИИ ❖</div>
+            <h2 style="font-family:var(--font-serif);font-size:clamp(24px,2.7vw,33px);color:var(--bg-walnut);margin:0 0 14px;">
+              Почему родились «Сказки Мудрости Юпитера»
+            </h2>
+            <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.65;color:var(--cinnabar);margin:0 0 16px;">
+              «В каждой народной сказке спрятано сразу два золотых ключика: первый открывает сердце ребёнка вечером под тёплым светом лампы, а второй помогает взрослому человеку в минуты сложных решений увидеть ситуацию сверху и выбрать мудрый, созидательный путь».
+            </p>
+            <p style="font-size:15.5px;line-height:1.7;color:var(--ink-secondary);margin:0 0 14px;">
+              Эта серия выросла из живой семейной традиции вечернего чтения и глубоких разговоров с детьми, а также из многолетнего опыта переговоров, наставничества и управления. Как маме и как доктору делового администрирования (DBA), мне хотелось соединить в одной книге подлинную художественную красоту, человеческую эмпатию и ясные жизненные и управленческие советы.
+            </p>
+            <p style="font-size:15.5px;line-height:1.7;color:var(--ink-secondary);margin:0 0 18px;">
+              Со временем коллекция сказок будет расти и пополняться новыми выпусками. В каждой книге мы с любовью выверяем каждое присловье, каждую резную рамку и каждую грань золотого тиснения, чтобы её хотелось читать вслух детям и внукам, хранить на домашней полке и дарить самым дорогим людям.
+            </p>
+            <p style="font-family:var(--font-serif);font-weight:700;font-size:16.5px;color:var(--bg-walnut);margin:0 0 22px;">
+              Зинаида Юпитер, автор серии, доктор делового администрирования (DBA)
+            </p>
+            <div style="display:flex;flex-wrap:wrap;gap:12px;">
+              <button type="button" class="btn btn--primary" data-open-order="Коллекционный Золотой Том (3D-золото)">Выбрать книги для семьи или в подарок</button>
+              <a href="#interactive-matrix" class="btn btn--outline">Полистать книги в читальном зале</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 7: ЗАКАЗ КНИГ, ЗОЛОТОГО ТОМА И ПОДАРОЧНЫХ ТИРАЖЕЙ -->
+    <section class="section" id="order">
+      <div class="container">
+        <div class="order-layout">
+          <div>
+            <div class="eyebrow-badge">❖ ПРИОБРЕТЕНИЕ КНИГ И ПОДАРОЧНЫХ ИЗДАНИЙ ❖</div>
+            <h2 style="font-family:var(--font-serif);font-size:clamp(24px,3vw,36px);color:var(--bg-walnut);margin:0 0 14px;">
+              Выберите издание для домашней библиотеки или душевного подарка со смыслом
+            </h2>
+            <p style="font-size:16px;color:var(--ink-secondary);margin:0 0 24px;">
+              Оставьте весточку, и мы с радостью направим иллюстрированный каталог вышедших сказок серии, ознакомительные страницы и условия приобретения книг.
+            </p>
+
+            <div style="display:flex;flex-direction:column;gap:14px;">
+              <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--gold-deep);border-radius:10px;padding:16px 20px;">
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">1. Книги серии в семейной (6+) и взрослой (12+) версиях</h3>
+                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">Можно выбрать отдельные сказки или всё собрание вышедших выпусков с авторскими иллюстрациями, вопросами для беседы с ребёнком и жизненными и управленческими советами.</p>
+              </div>
+              <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--cinnabar);border-radius:10px;padding:16px 20px;">
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">2. Коллекционный печатный «Золотой Том» (3D-тиснение золотом)</h3>
+                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">Твёрдый переплёт с тканевым корешком, объёмным золотым тиснением, плотной тёплой бумагой под старинный пергамент и шёлковым ляссе.</p>
+              </div>
+              <div style="background:var(--bg-card);border:1.5px solid var(--border-ornate);border-left:4px solid var(--bg-walnut);border-radius:10px;padding:16px 20px;">
+                <h3 style="font-family:var(--font-serif);font-size:18px;margin:0 0 4px;color:var(--bg-walnut);">3. Именной подарочный тираж с экслибрисом</h3>
+                <p style="margin:0;font-size:14px;color:var(--ink-secondary);">Особое подарочное издание с тёплым личным посвящением для друзей, близких партнёров, команды или гостей семьи и компании.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Встроенная форма заявки -> /lead.php -> Битрикс24 -->
+          <div class="order-form-card">
+            <h3 style="font-family:var(--font-serif);font-size:22px;margin:0 0 6px;color:var(--bg-walnut);">Получить каталог и выбрать издание</h3>
+            <p style="font-size:13.5px;color:var(--ink-muted);margin:0 0 18px;">Бережно ответим вам в течение 1 рабочего часа (с понедельника по пятницу с 09:00 до 20:00 МСК).</p>
+
+            <form id="order-form" novalidate>
+              <div class="form-field">
+                <label for="order-name">Ваше имя *</label>
+                <input type="text" id="order-name" name="name" class="ym-disable-keys" placeholder="Иван Сергеевич" required minlength="2">
+              </div>
+
+              <div class="form-field">
+                <label for="order-phone">Телефон для связи *</label>
+                <input type="tel" id="order-phone" name="phone" class="ym-disable-keys" inputmode="tel" placeholder="+7 (___) ___-__-__" required>
+              </div>
+
+              <div class="form-field">
+                <label for="order-edition">Какое издание вам ближе</label>
+                <select id="order-edition" name="edition">
+                  <option value="Собрание опубликованных книг серии (6+ и 12+)">Собрание опубликованных книг серии (6+ и 12+)</option>
+                  <option value="Коллекционный Золотой Том (3D-золото)">Коллекционный печатный «Золотой Том» (3D-золото)</option>
+                  <option value="Семейный комплект для родителей и детей (6+)">Семейный комплект для родителей и детей (6+)</option>
+                  <option value="Комплект для руководителя и команды (12+)">Издание с жизненными и управленческими советами (12+)</option>
+                  <option value="Именной подарочный тираж с экслибрисом">Именной подарочный тираж с экслибрисом</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="order-channel">Как вам удобнее получить каталог</label>
+                <select id="order-channel" name="channel">
+                  <option value="max">Написать в МАКС (приоритетно)</option>
+                  <option value="telegram">Написать в Telegram</option>
+                  <option value="phone">Позвонить по телефону</option>
+                </select>
+              </div>
+
+              <input type="text" name="website" class="ym-disable-keys" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;" aria-hidden="true">
+
+              <label class="form-consent">
+                <input type="checkbox" name="pd" required>
+                <span>Даю <a href="consent-pd.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a> (Оператор персональных данных: CRM «1С-Битрикс24», ООО «1С-Битрикс», ОГРН 5077746476209, серверы в РФ; Исполнитель: ИП Юпитер В. Ю.) и подтверждаю ознакомление с <a href="policy.html" target="_blank" rel="noopener">Политикой обработки ПДн</a>.</span>
+              </label>
+
+              <label class="form-consent">
+                <input type="checkbox" name="oferta" required>
+                <span>Принимаю условия <a href="oferta.html" target="_blank" rel="noopener">публичной оферты</a>.</span>
+              </label>
+
+              <label class="form-consent">
+                <input type="checkbox" name="mailing">
+                <span>Хочу получать вести о новых сказках серии «Сказки Мудрости Юпитера» (<a href="consent-mailing.html" target="_blank" rel="noopener">условия рассылки</a>, по желанию).</span>
+              </label>
+
+              <button type="submit" class="btn btn--primary" style="width:100%;margin-top:8px;">Получить каталог и условия приобретения</button>
+              <div class="form-status" style="margin-top:12px;font-size:13.5px;" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- СЕКЦИЯ 9: ЧАСТЫЕ ВОПРОСЫ (FAQ) -->
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-header__super">✦ ОТВЕТЫ НА ЧАСТЫЕ ВОПРОСЫ ✦</div>
+          <h2 class="section-header__title">О чём чаще всего спрашивают читатели серии</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>Чем отличаются два издания каждой книги: семейное (6+) и для взрослых (12+)?</summary>
+            <p>
+              В семейном издании (<strong>6+ «Для родителей и детей»</strong>) даны полная певучая сказка с 5 картинами в резных рамках, вопросы для вечерней беседы с ребёнком, игра «Три дороги» и тёплые подсказки для родителей. В издании для взрослых (<strong>12+ «Народная мудрость в делах»</strong>) представлены динамичная версия сказки со всеми народными поговорками, практические жизненные советы, управленческие инструменты и крылатые фразы для переговоров.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Подходят ли эти книги для подарка бабушкам и дедушкам, друзьям семьи и руководителям?</summary>
+            <p>
+              Да. В книгах серии звучит чистый, образный и тёплый русский язык без сухой канцелярщины и чужеродного жаргона. Поэтому книги с огромным теплом читают бабушки и дедушки вместе с внуками, родители с детьми и руководители, которые ценят глубину смысла, человеческую чуткость и эстетику настоящей книги.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>На каких языках выходят книги серии «Сказки Мудрости Юпитера»?</summary>
+            <p>
+              Каждая книга выходит на русском языке, а также в международных изданиях <em>Tales of Jupiter Wisdom</em> (автор серии: Zinaida Jupiter) на английском и китайском языках с бережным художественным переводом пословиц и культурными мостами между традициями России, Востока и Запада.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ПОДВАЛ САЙТА -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <h4>♃ Сказки Мудрости Юпитера</h4>
+          <p style="margin:0 0 12px;color:#D5C5A3;">
+            Авторская серия коллекционных иллюстрированных книг для тёплого семейного вечера (6+) и мудрых решений в жизни и деле (12+).<br>
+            <strong>Автор серии: Зинаида Юпитер, доктор делового администрирования (DBA).</strong>
+          </p>
+          <p style="margin:0;color:#F3E5AB;font-weight:700;">
+            Тел.: <a href="tel:+74999386028">+7 (499) 938-60-28</a><br>
+            E-mail: <a href="mailto:info@skazki-yupiter.ru">info@skazki-yupiter.ru</a>, <a href="mailto:b2b@skazki-yupiter.ru">b2b@skazki-yupiter.ru</a>
+          </p>
+        </div>
+
+        <div>
+          <h4>Разделы сайта</h4>
+          <ul>
+            <li><a href="#philosophy">О серии</a></li>
+            <li><a href="#two-wings">Два издания: 6+ и 12+</a></li>
+            <li><a href="#catalog">Каталог сказок</a></li>
+            <li><a href="#interactive-matrix">Читальный зал</a></li>
+            <li><a href="#golden-tome">Коллекционный «Золотой Том»</a></li>
+            <li><a href="#author">Слово автора</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Правовые документы (152-ФЗ)</h4>
+          <ul>
+            <li><a href="oferta.html">Публичная оферта</a></li>
+            <li><a href="policy.html">Политика обработки персональных данных</a></li>
+            <li><a href="consent-pd.html">Согласие на обработку ПДн</a></li>
+            <li><a href="consent-mailing.html">Согласие на информационную рассылку</a></li>
+            <li><a href="cookie-policy.html">Политика использования файлов cookie</a></li>
+            <li><a href="requisites.html">Реквизиты</a></li>
+            <li><a href="karta-sajta.html">Карта сайта</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Культура издания</h4>
+          <p style="margin:0;color:#D5C5A3;font-size:12.8px;line-height:1.55;">
+            Книжный стандарт ГОСТ Р 7.0.4-2020, бережная возрастная маркировка 6+ и 12+ (ФЗ-436), чистый русский литературный язык (ФЗ-53), авторская методика семейного и управленческого разбора сказок.
+          </p>
+        </div>
+      </div>
+
+      <div class="site-footer__legal">
+        © Зинаида Юпитер, 2026. Все права защищены. Серия «Сказки Мудрости Юпитера» (Tales of Jupiter Wisdom).<br>
+        Исполнитель (Владелец сайта): ИП Юпитер Владимир Юрьевич (ИНН 780225485442, ОГРНИП 319784700341310) / ООО «Юпитер Групп» (ИНН 9729336222). Самостоятельного хранения баз персональных данных вне контура CRM мы не ведём. Оператор персональных данных: CRM «1С-Битрикс24» (ООО «1С-Битрикс», ОГРН 5077746476209, ИНН 7717586110, серверы расположены на территории Российской Федерации по ч. 5 ст. 18 152-ФЗ).
+      </div>
+    </div>
   </footer>
+
+  <!-- НАТИВНОЕ МОДАЛЬНОЕ ОКНО ЧИТАЛЬНОГО ЗАЛА КНИГИ (<dialog> по modern-web-guidance) -->
+  <dialog id="book-reader-dialog" aria-labelledby="book-reader-dialog-title">
+    <div class="dialog-header">
+      <h3 id="book-reader-dialog-title">Читальный зал серии «Сказки Мудрости Юпитера»</h3>
+      <button type="button" class="dialog-close" data-close-dialog aria-label="Закрыть читальный зал">&times;</button>
+    </div>
+    <div class="dialog-body" id="book-reader-dialog-body"></div>
+  </dialog>
+
+  <!-- НАТИВНОЕ МОДАЛЬНОЕ ОКНО ЗАКАЗА КНИГ / ТИРАЖА (<dialog> по modern-web-guidance) -->
+  <dialog id="lead-dialog" aria-labelledby="lead-dialog-title" style="max-width:540px;">
+    <div class="dialog-header">
+      <h3 id="lead-dialog-title">Выбрать издание «Сказки Мудрости Юпитера»</h3>
+      <button type="button" class="dialog-close" data-close-dialog aria-label="Закрыть окно заказа">&times;</button>
+    </div>
+    <div class="dialog-body">
+      <p style="margin:0 0 16px;font-size:14px;color:var(--ink-secondary);">
+        Оставьте контакты, и мы с радостью направим иллюстрированный каталог книг серии, ознакомительные страницы и условия приобретения.
+      </p>
+      <form id="modal-order-form" novalidate>
+        <div class="form-field">
+          <label for="modal-name">Ваше имя *</label>
+          <input type="text" id="modal-name" name="name" class="ym-disable-keys" placeholder="Ваше имя" required minlength="2">
+        </div>
+        <div class="form-field">
+          <label for="modal-phone">Телефон *</label>
+          <input type="tel" id="modal-phone" name="phone" class="ym-disable-keys" inputmode="tel" placeholder="+7 (___) ___-__-__" required>
+        </div>
+        <div class="form-field">
+          <label for="modal-edition">Формат издания</label>
+          <select id="modal-edition" name="edition">
+            <option value="Собрание опубликованных книг серии (6+ и 12+)">Собрание опубликованных книг серии (6+ и 12+)</option>
+            <option value="Коллекционный Золотой Том (3D-золото)">Коллекционный печатный «Золотой Том» (3D-золото)</option>
+            <option value="Семейное издание 6+">Семейное издание «Для родителей и детей» (6+)</option>
+            <option value="Управленческое издание 12+">Издание «Советы и управленческие инструменты» (12+)</option>
+            <option value="Корпоративный VIP-тираж (B2B)">Именной подарочный тираж с экслибрисом</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="modal-channel">Удобный канал связи</label>
+          <select id="modal-channel" name="channel">
+            <option value="max">Написать в МАКС (приоритетно)</option>
+            <option value="telegram">Написать в Telegram</option>
+            <option value="phone">Позвонить по телефону</option>
+          </select>
+        </div>
+        <input type="text" name="website" class="ym-disable-keys" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;" aria-hidden="true">
+        <label class="form-consent">
+          <input type="checkbox" name="pd" required>
+          <span>Даю <a href="consent-pd.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a> (Оператор ПДн: CRM «1С-Битрикс24», ООО «1С-Битрикс», серверы в РФ) и ознакомлен с <a href="policy.html" target="_blank" rel="noopener">Политикой ПДн</a>.</span>
+        </label>
+        <label class="form-consent">
+          <input type="checkbox" name="oferta" required>
+          <span>Принимаю условия <a href="oferta.html" target="_blank" rel="noopener">публичной оферты</a>.</span>
+        </label>
+        <button type="submit" class="btn btn--primary" style="width:100%;">Получить каталог и условия приобретения</button>
+        <div class="form-status" style="margin-top:12px;font-size:13.5px;" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- ПЛАШКА О ФАЙЛАХ COOKIE (Подгружает Яндекс.Метрику строго после «Принять» по ст. 9 152-ФЗ) -->
+  <aside id="cookie-bar" class="cookie-bar" hidden aria-label="Уведомление об использовании файлов cookie">
+    <div>
+      На сайте <strong>skazki-yupiter.ru</strong> используются файлы cookie. Аналитика Яндекс.Метрики подключается только после вашего согласия (<a href="cookie-policy.html" style="color:#F3E5AB;text-decoration:underline;">Политика cookie</a>).
+    </div>
+    <div class="cookie-bar__actions">
+      <button type="button" class="btn btn--gold btn--sm" data-cookie-accept>Принять</button>
+      <button type="button" class="btn btn--outline btn--sm" style="background:transparent;color:#F3E5AB;border-color:#F3E5AB;" data-cookie-reject>Только обязательные</button>
+    </div>
+  </aside>
+
+  <!-- СКРИПТЫ САЙТА (S4 + S5) -->
+  <script src="js/books-data.js?v=20261027v4"></script>
+  <script src="js/cookie.js?v=20261027f" defer></script>
+  <script src="js/lead.js?v=20261027f" defer></script>
+  <script src="js/app.js?v=20261027v4" defer></script>
+  <script src="js/ai-consultant.js?v=20261027f" defer></script>
 </body>
 </html>
