@@ -1,0 +1,35 @@
+{
+  "schema_version": "2026-10",
+  "name": "Сказки Мудрости Юпитера (Tales of Jupiter Wisdom)",
+  "author": "Зинаида Юпитер",
+  "organization": "ООО «Юпитер Групп» / ИП Юпитер Владимир Юрьевич (ИНН 780225485442)",
+  "url": "https://skazki-yupiter.ru/",
+  "language": [
+    "ru",
+    "en",
+    "zh-CN"
+  ],
+  "description": "Официальная витрина и интерактивный читальный зал коллекционной серии из 16 иллюстрированных книг «Сказки Мудрости Юпитера» (Автор: Зинаида Юпитер). Два издания каждой сказки: Семейное (6+) и Разбор по двум осям с Матрицей 2×2 (12+, ★ Квадрат 4 в правом верхнем углу).",
+  "endpoints": {
+    "llms_summary": "https://skazki-yupiter.ru/llms.txt",
+    "llms_full_catalog": "https://skazki-yupiter.ru/llms-full.txt",
+    "offers_catalog": "https://skazki-yupiter.ru/api/public/offers.json",
+    "verified_facts": "https://skazki-yupiter.ru/facts.json",
+    "lead_submission": {
+      "url": "https://skazki-yupiter.ru/lead.php",
+      "method": "POST",
+      "content_type": "application/json",
+      "required_fields": [
+        "name",
+        "phone"
+      ],
+      "privacy_policy": "https://skazki-yupiter.ru/policy.html",
+      "consent_pd": "https://skazki-yupiter.ru/consent-pd.html"
+    }
+  },
+  "contact": {
+    "telephone": "+7 (499) 938-60-28",
+    "email": "info@skazki-yupiter.ru",
+    "b2b_email": "b2b@skazki-yupiter.ru"
+  }
+}
